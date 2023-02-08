@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Developing on My New Hugo Site</title>
+    <link>http://example.org/categories/developing/</link>
+    <description>Recent content in Developing on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 04 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/categories/developing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Testing Simple Crosshair in Python</title>
+      <link>http://example.org/posts/simple-crosshair-in-python/</link>
+      <pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/simple-crosshair-in-python/</guid>
+      <description>&lt;p&gt;Playing around in python just to see if it works. It&amp;rsquo;s nothing complicated nor fancy but it does what I thought it would do. Thing is, I don&amp;rsquo;t even play Fortnite, or any other game for that matter :-).&lt;/p&gt;
+
+
+
+&lt;div class=&#34;gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition&#34; itemscope itemtype=&#34;http://schema.org/ImageGallery&#34;&gt;
+	  
+  
+  &lt;link rel=&#34;stylesheet&#34; href=&#34;http://example.org/css/hugo-easy-gallery.css&#34; /&gt;
+  &lt;div class=&#34;box&#34; &gt;
+    &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://example.org//img/random/pythoncross.jpg&#39;);&#34;&gt;
+        &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://example.org/img/random/pythoncross.jpg&#34; alt=&#34;Crosshair in Python&#34;/&gt;
+      &lt;/div&gt;
+      &lt;a href=&#34;http://example.org/img/random/pythoncross.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            &lt;p&gt;Crosshair in Python&lt;/p&gt;
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+
+
+&lt;/div&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

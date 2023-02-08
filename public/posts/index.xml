@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on My New Hugo Site</title>
+    <link>http://example.org/posts/</link>
+    <description>Recent content in Posts on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 04 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Testing Simple Crosshair in Python</title>
+      <link>http://example.org/posts/simple-crosshair-in-python/</link>
+      <pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/simple-crosshair-in-python/</guid>
+      <description>&lt;p&gt;Playing around in python just to see if it works. It&amp;rsquo;s nothing complicated nor fancy but it does what I thought it would do. Thing is, I don&amp;rsquo;t even play Fortnite, or any other game for that matter :-).&lt;/p&gt;
+
+
+
+&lt;div class=&#34;gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition&#34; itemscope itemtype=&#34;http://schema.org/ImageGallery&#34;&gt;
+	  
+  
+  &lt;link rel=&#34;stylesheet&#34; href=&#34;http://example.org/css/hugo-easy-gallery.css&#34; /&gt;
+  &lt;div class=&#34;box&#34; &gt;
+    &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://example.org//img/random/pythoncross.jpg&#39;);&#34;&gt;
+        &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://example.org/img/random/pythoncross.jpg&#34; alt=&#34;Crosshair in Python&#34;/&gt;
+      &lt;/div&gt;
+      &lt;a href=&#34;http://example.org/img/random/pythoncross.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            &lt;p&gt;Crosshair in Python&lt;/p&gt;
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+
+
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Shilajit, it&#39;s No Shit</title>
+      <link>http://example.org/posts/shilajit-its-no-shit/</link>
+      <pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/shilajit-its-no-shit/</guid>
+      <description>I’ve been taking Shilajit for a week or so now and I must say I can already feel some positive effects. I have more energy and that is one of the main reasons I decided to give it a try. I only take a minimal dose once a day, some other people I’ve heard take it 3-4 times a day.
+Shilajit is an ancient Ayurvedic remedy that has been used for centuries to treat a variety of ailments.</description>
+    </item>
+    
+    <item>
+      <title>Exploring Midjourney, Part 1</title>
+      <link>http://example.org/posts/exploring-midjourney/</link>
+      <pubDate>Sat, 21 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/exploring-midjourney/</guid>
+      <description>&lt;p&gt;I must say, &lt;a href=&#34;https://www.midjourney.com&#34;&gt;Midjourney&lt;/a&gt; is amazing. Being able to just describe a scene or whatever in text and it generates an image from that input. Love it!&lt;/p&gt;
+&lt;p&gt;Some examples I throwed at it:&lt;/p&gt;
+
+
+
+&lt;div class=&#34;gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition&#34; itemscope itemtype=&#34;http://schema.org/ImageGallery&#34;&gt;
+	  
+  
+  &lt;link rel=&#34;stylesheet&#34; href=&#34;http://example.org/css/hugo-easy-gallery.css&#34; /&gt;
+  &lt;div class=&#34;box&#34; &gt;
+    &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://example.org//img/midjourney/TrooperBeer.jpg&#39;);&#34;&gt;
+        &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://example.org/img/midjourney/TrooperBeer.jpg&#34; alt=&#34;Trooper Beer&#34;/&gt;
+      &lt;/div&gt;
+      &lt;a href=&#34;http://example.org/img/midjourney/TrooperBeer.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            &lt;p&gt;Trooper Beer&lt;/p&gt;
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+
+  
+  
+  &lt;div class=&#34;box&#34; &gt;
+    &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://example.org//img/midjourney/JustSayNo.jpg&#39;);&#34;&gt;
+        &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://example.org/img/midjourney/JustSayNo.jpg&#34; alt=&#34;Just Say No&#34;/&gt;
+      &lt;/div&gt;
+      &lt;a href=&#34;http://example.org/img/midjourney/JustSayNo.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            &lt;p&gt;Just Say No&lt;/p&gt;
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+
+  
+  
+  &lt;div class=&#34;box&#34; &gt;
+    &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://example.org//img/midjourney/GoldenCoon.jpg&#39;);&#34;&gt;
+        &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://example.org/img/midjourney/GoldenCoon.jpg&#34; alt=&#34;Golden Coon&#34;/&gt;
+      &lt;/div&gt;
+      &lt;a href=&#34;http://example.org/img/midjourney/GoldenCoon.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            &lt;p&gt;Golden Coon&lt;/p&gt;
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+
+
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>How AI Can Improve Project Planning and Management</title>
+      <link>http://example.org/posts/improve-with-ai/</link>
+      <pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/improve-with-ai/</guid>
+      <description>&lt;p&gt;Artificial intelligence has the potential to &lt;strong&gt;revolutionize&lt;/strong&gt; the way we plan and manage projects.
+With its ability to quickly analyze large amounts of data and make predictions based on that analysis, AI can help project managers identify potential bottlenecks and make more accurate estimates of how long a project will take to complete.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
