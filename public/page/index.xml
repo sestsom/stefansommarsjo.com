@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Pages on My New Hugo Site</title>
-    <link>http://example.org/page/</link>
-    <description>Recent content in Pages on My New Hugo Site</description>
+    <title>Pages on Das Blog</title>
+    <link>https://www.stefansommarsjo.com/page/</link>
+    <description>Recent content in Pages on Das Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://example.org/page/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://www.stefansommarsjo.com/page/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About me</title>
-      <link>http://example.org/page/about/</link>
+      <link>https://www.stefansommarsjo.com/page/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/page/about/</guid>
+      <guid>https://www.stefansommarsjo.com/page/about/</guid>
       <description>Hi there! My name is Stefan Sommarsjö and I’m a creator at heart. Whether it’s through my lens, my music, or my code, I love nothing more than bringing ideas to life.
 As a photographer, I’m constantly inspired by the world around me and the stories it holds. Capturing those moments and sharing them with others brings me immense joy. From landscapes to portraits, I love experimenting with different styles and techniques to see what works best.</description>
     </item>

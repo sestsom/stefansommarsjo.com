@@ -1,28 +1,42 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Evolution on My New Hugo Site</title>
-    <link>http://example.org/categories/evolution/</link>
-    <description>Recent content in Evolution on My New Hugo Site</description>
+    <title>Evolution on Das Blog</title>
+    <link>https://www.stefansommarsjo.com/categories/evolution/</link>
+    <description>Recent content in Evolution on Das Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 31 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/categories/evolution/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 09 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.stefansommarsjo.com/categories/evolution/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Birth of the World: From Chaos to Creation</title>
+      <link>https://www.stefansommarsjo.com/posts/the-birth-of-the-world-from-chaos-to-creation/</link>
+      <pubDate>Thu, 09 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.stefansommarsjo.com/posts/the-birth-of-the-world-from-chaos-to-creation/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/hdYHcZWEhH8&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The origin of the world has been a topic of fascination and speculation for thousands of years. Many cultures and religions have their own creation stories, each providing unique insights into the forces that brought the universe into being.&lt;/p&gt;
+&lt;p&gt;But regardless of the particular narrative, the underlying theme is the same: the world emerged from chaos and took form through a process of creation.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Shilajit, it&#39;s No Shit</title>
-      <link>http://example.org/posts/shilajit-its-no-shit/</link>
+      <link>https://www.stefansommarsjo.com/posts/shilajit-its-no-shit/</link>
       <pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/shilajit-its-no-shit/</guid>
+      <guid>https://www.stefansommarsjo.com/posts/shilajit-its-no-shit/</guid>
       <description>I’ve been taking Shilajit for a week or so now and I must say I can already feel some positive effects. I have more energy and that is one of the main reasons I decided to give it a try. I only take a minimal dose once a day, some other people I’ve heard take it 3-4 times a day.
 Shilajit is an ancient Ayurvedic remedy that has been used for centuries to treat a variety of ailments.</description>
     </item>
     
     <item>
       <title>Exploring Midjourney, Part 1</title>
-      <link>http://example.org/posts/exploring-midjourney/</link>
+      <link>https://www.stefansommarsjo.com/posts/exploring-midjourney/</link>
       <pubDate>Sat, 21 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/exploring-midjourney/</guid>
+      <guid>https://www.stefansommarsjo.com/posts/exploring-midjourney/</guid>
       <description>&lt;p&gt;I must say, &lt;a href=&#34;https://www.midjourney.com&#34;&gt;Midjourney&lt;/a&gt; is amazing. Being able to just describe a scene or whatever in text and it generates an image from that input. Love it!&lt;/p&gt;
 &lt;p&gt;Some examples I throwed at it:&lt;/p&gt;
 
@@ -31,13 +45,13 @@ Shilajit is an ancient Ayurvedic remedy that has been used for centuries to trea
 &lt;div class=&#34;gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition&#34; itemscope itemtype=&#34;http://schema.org/ImageGallery&#34;&gt;
 	  
   
-  &lt;link rel=&#34;stylesheet&#34; href=&#34;http://example.org/css/hugo-easy-gallery.css&#34; /&gt;
+  &lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.stefansommarsjo.com/css/hugo-easy-gallery.css&#34; /&gt;
   &lt;div class=&#34;box&#34; &gt;
     &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
-      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://example.org//img/midjourney/TrooperBeer.jpg&#39;);&#34;&gt;
-        &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://example.org/img/midjourney/TrooperBeer.jpg&#34; alt=&#34;Trooper Beer&#34;/&gt;
+      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://www.stefansommarsjo.com/img/midjourney/TrooperBeer.jpg&#39;);&#34;&gt;
+        &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.stefansommarsjo.com/img/midjourney/TrooperBeer.jpg&#34; alt=&#34;Trooper Beer&#34;/&gt;
       &lt;/div&gt;
-      &lt;a href=&#34;http://example.org/img/midjourney/TrooperBeer.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;a href=&#34;https://www.stefansommarsjo.com/img/midjourney/TrooperBeer.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
         &lt;figcaption&gt;
             &lt;p&gt;Trooper Beer&lt;/p&gt;
         &lt;/figcaption&gt;
@@ -48,10 +62,10 @@ Shilajit is an ancient Ayurvedic remedy that has been used for centuries to trea
   
   &lt;div class=&#34;box&#34; &gt;
     &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
-      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://example.org//img/midjourney/JustSayNo.jpg&#39;);&#34;&gt;
-        &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://example.org/img/midjourney/JustSayNo.jpg&#34; alt=&#34;Just Say No&#34;/&gt;
+      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://www.stefansommarsjo.com/img/midjourney/JustSayNo.jpg&#39;);&#34;&gt;
+        &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.stefansommarsjo.com/img/midjourney/JustSayNo.jpg&#34; alt=&#34;Just Say No&#34;/&gt;
       &lt;/div&gt;
-      &lt;a href=&#34;http://example.org/img/midjourney/JustSayNo.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;a href=&#34;https://www.stefansommarsjo.com/img/midjourney/JustSayNo.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
         &lt;figcaption&gt;
             &lt;p&gt;Just Say No&lt;/p&gt;
         &lt;/figcaption&gt;
@@ -62,10 +76,10 @@ Shilajit is an ancient Ayurvedic remedy that has been used for centuries to trea
   
   &lt;div class=&#34;box&#34; &gt;
     &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
-      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;http://example.org//img/midjourney/GoldenCoon.jpg&#39;);&#34;&gt;
-        &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://example.org/img/midjourney/GoldenCoon.jpg&#34; alt=&#34;Golden Coon&#34;/&gt;
+      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://www.stefansommarsjo.com/img/midjourney/GoldenCoon.jpg&#39;);&#34;&gt;
+        &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.stefansommarsjo.com/img/midjourney/GoldenCoon.jpg&#34; alt=&#34;Golden Coon&#34;/&gt;
       &lt;/div&gt;
-      &lt;a href=&#34;http://example.org/img/midjourney/GoldenCoon.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;a href=&#34;https://www.stefansommarsjo.com/img/midjourney/GoldenCoon.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
         &lt;figcaption&gt;
             &lt;p&gt;Golden Coon&lt;/p&gt;
         &lt;/figcaption&gt;
@@ -78,10 +92,10 @@ Shilajit is an ancient Ayurvedic remedy that has been used for centuries to trea
     
     <item>
       <title>How AI Can Improve Project Planning and Management</title>
-      <link>http://example.org/posts/improve-with-ai/</link>
+      <link>https://www.stefansommarsjo.com/posts/improve-with-ai/</link>
       <pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/improve-with-ai/</guid>
+      <guid>https://www.stefansommarsjo.com/posts/improve-with-ai/</guid>
       <description>&lt;p&gt;Artificial intelligence has the potential to &lt;strong&gt;revolutionize&lt;/strong&gt; the way we plan and manage projects.
 With its ability to quickly analyze large amounts of data and make predictions based on that analysis, AI can help project managers identify potential bottlenecks and make more accurate estimates of how long a project will take to complete.&lt;/p&gt;</description>
     </item>

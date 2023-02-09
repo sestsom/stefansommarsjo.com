@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Health on My New Hugo Site</title>
-    <link>http://example.org/tags/health/</link>
-    <description>Recent content in Health on My New Hugo Site</description>
+    <title>Health on Das Blog</title>
+    <link>https://www.stefansommarsjo.com/tags/health/</link>
+    <description>Recent content in Health on Das Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 31 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/health/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 31 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.stefansommarsjo.com/tags/health/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Shilajit, it&#39;s No Shit</title>
-      <link>http://example.org/posts/shilajit-its-no-shit/</link>
+      <link>https://www.stefansommarsjo.com/posts/shilajit-its-no-shit/</link>
       <pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/shilajit-its-no-shit/</guid>
+      <guid>https://www.stefansommarsjo.com/posts/shilajit-its-no-shit/</guid>
       <description>I’ve been taking Shilajit for a week or so now and I must say I can already feel some positive effects. I have more energy and that is one of the main reasons I decided to give it a try. I only take a minimal dose once a day, some other people I’ve heard take it 3-4 times a day.
 Shilajit is an ancient Ayurvedic remedy that has been used for centuries to treat a variety of ailments.</description>
     </item>

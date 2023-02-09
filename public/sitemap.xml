@@ -2,61 +2,67 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://www.stefansommarsjo.com/tags/ai/</loc>
+    <lastmod>2023-02-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.stefansommarsjo.com/categories/artificial-intelligence/</loc>
+    <lastmod>2023-02-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.stefansommarsjo.com/categories/</loc>
+    <lastmod>2023-02-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.stefansommarsjo.com/</loc>
+    <lastmod>2023-02-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.stefansommarsjo.com/categories/evolution/</loc>
+    <lastmod>2023-02-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.stefansommarsjo.com/tags/midjourney/</loc>
+    <lastmod>2023-02-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.stefansommarsjo.com/tags/mythology/</loc>
+    <lastmod>2023-02-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.stefansommarsjo.com/posts/</loc>
+    <lastmod>2023-02-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.stefansommarsjo.com/tags/</loc>
+    <lastmod>2023-02-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.stefansommarsjo.com/posts/the-birth-of-the-world-from-chaos-to-creation/</loc>
+    <lastmod>2023-02-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.stefansommarsjo.com/categories/coding/</loc>
     <lastmod>2023-02-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/coding/</loc>
+    <loc>https://www.stefansommarsjo.com/categories/developing/</loc>
     <lastmod>2023-02-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/developing/</loc>
+    <loc>https://www.stefansommarsjo.com/tags/python/</loc>
     <lastmod>2023-02-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/</loc>
+    <loc>https://www.stefansommarsjo.com/posts/simple-crosshair-in-python/</loc>
     <lastmod>2023-02-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/</loc>
-    <lastmod>2023-02-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://example.org/tags/python/</loc>
-    <lastmod>2023-02-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://example.org/tags/</loc>
-    <lastmod>2023-02-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://example.org/posts/simple-crosshair-in-python/</loc>
-    <lastmod>2023-02-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://example.org/categories/evolution/</loc>
+    <loc>https://www.stefansommarsjo.com/tags/health/</loc>
     <lastmod>2023-01-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/health/</loc>
+    <loc>https://www.stefansommarsjo.com/categories/health/</loc>
     <lastmod>2023-01-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/health/</loc>
+    <loc>https://www.stefansommarsjo.com/posts/shilajit-its-no-shit/</loc>
     <lastmod>2023-01-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/shilajit-its-no-shit/</loc>
-    <lastmod>2023-01-31T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://example.org/tags/ai/</loc>
+    <loc>https://www.stefansommarsjo.com/posts/exploring-midjourney/</loc>
     <lastmod>2023-01-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/artificial-intelligence/</loc>
-    <lastmod>2023-01-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://example.org/posts/exploring-midjourney/</loc>
-    <lastmod>2023-01-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://example.org/tags/midjourney/</loc>
-    <lastmod>2023-01-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://example.org/posts/improve-with-ai/</loc>
+    <loc>https://www.stefansommarsjo.com/posts/improve-with-ai/</loc>
     <lastmod>2023-01-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/page/about/</loc>
+    <loc>https://www.stefansommarsjo.com/page/about/</loc>
   </url><url>
-    <loc>http://example.org/examples/</loc>
+    <loc>https://www.stefansommarsjo.com/examples/</loc>
   </url><url>
-    <loc>http://example.org/page/</loc>
+    <loc>https://www.stefansommarsjo.com/page/</loc>
   </url>
 </urlset>

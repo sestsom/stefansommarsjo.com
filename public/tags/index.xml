@@ -1,45 +1,54 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on My New Hugo Site</title>
-    <link>http://example.org/tags/</link>
-    <description>Recent content in Tags on My New Hugo Site</description>
+    <title>Tags on Das Blog</title>
+    <link>https://www.stefansommarsjo.com/tags/</link>
+    <description>Recent content in Tags on Das Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 04 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Python</title>
-      <link>http://example.org/tags/python/</link>
-      <pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/tags/python/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Health</title>
-      <link>http://example.org/tags/health/</link>
-      <pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/tags/health/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Thu, 09 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.stefansommarsjo.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AI</title>
-      <link>http://example.org/tags/ai/</link>
-      <pubDate>Sat, 21 Jan 2023 00:00:00 +0000</pubDate>
+      <link>https://www.stefansommarsjo.com/tags/ai/</link>
+      <pubDate>Thu, 09 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/ai/</guid>
+      <guid>https://www.stefansommarsjo.com/tags/ai/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Midjourney</title>
-      <link>http://example.org/tags/midjourney/</link>
-      <pubDate>Sat, 21 Jan 2023 00:00:00 +0000</pubDate>
+      <link>https://www.stefansommarsjo.com/tags/midjourney/</link>
+      <pubDate>Thu, 09 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/midjourney/</guid>
+      <guid>https://www.stefansommarsjo.com/tags/midjourney/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mythology</title>
+      <link>https://www.stefansommarsjo.com/tags/mythology/</link>
+      <pubDate>Thu, 09 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.stefansommarsjo.com/tags/mythology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://www.stefansommarsjo.com/tags/python/</link>
+      <pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.stefansommarsjo.com/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Health</title>
+      <link>https://www.stefansommarsjo.com/tags/health/</link>
+      <pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.stefansommarsjo.com/tags/health/</guid>
       <description></description>
     </item>
     

@@ -1,54 +1,54 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on My New Hugo Site</title>
-    <link>http://example.org/categories/</link>
-    <description>Recent content in Categories on My New Hugo Site</description>
+    <title>Categories on Das Blog</title>
+    <link>https://www.stefansommarsjo.com/categories/</link>
+    <description>Recent content in Categories on Das Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 04 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 09 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.stefansommarsjo.com/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Coding</title>
-      <link>http://example.org/categories/coding/</link>
-      <pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate>
+      <title>Artificial Intelligence</title>
+      <link>https://www.stefansommarsjo.com/categories/artificial-intelligence/</link>
+      <pubDate>Thu, 09 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/categories/coding/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Developing</title>
-      <link>http://example.org/categories/developing/</link>
-      <pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/categories/developing/</guid>
+      <guid>https://www.stefansommarsjo.com/categories/artificial-intelligence/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Evolution</title>
-      <link>http://example.org/categories/evolution/</link>
-      <pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate>
+      <link>https://www.stefansommarsjo.com/categories/evolution/</link>
+      <pubDate>Thu, 09 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/categories/evolution/</guid>
+      <guid>https://www.stefansommarsjo.com/categories/evolution/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Coding</title>
+      <link>https://www.stefansommarsjo.com/categories/coding/</link>
+      <pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.stefansommarsjo.com/categories/coding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Developing</title>
+      <link>https://www.stefansommarsjo.com/categories/developing/</link>
+      <pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.stefansommarsjo.com/categories/developing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Health</title>
-      <link>http://example.org/categories/health/</link>
+      <link>https://www.stefansommarsjo.com/categories/health/</link>
       <pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/categories/health/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Artificial Intelligence</title>
-      <link>http://example.org/categories/artificial-intelligence/</link>
-      <pubDate>Sat, 21 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/categories/artificial-intelligence/</guid>
+      <guid>https://www.stefansommarsjo.com/categories/health/</guid>
       <description></description>
     </item>
     

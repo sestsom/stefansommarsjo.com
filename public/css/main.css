@@ -590,7 +590,9 @@ footer .theme-by {
 .intro-header .tags-heading h1,
 .intro-header .categories-heading h1 {
   margin-top: 0;
-  font-size: 50px;
+  font-size: 45px;
+  letter-spacing: -3px;
+  word-spacing: -2px;
 }
 .intro-header .post-heading h1 {
   margin-top: 0;
