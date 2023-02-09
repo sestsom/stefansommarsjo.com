@@ -160,12 +160,12 @@ figure:not(.dark) img, img.white {
   border-bottom: 1px solid #EAEAEA;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
-@media (prefers-color-scheme: dark) {
+/*@media (prefers-color-scheme: dark) {
   .navbar-custom {
     background: #505050;
     border-bottom: 1px solid #AAA;
   }
-}
+}*/
 
 .navbar-custom .nav li a {
   text-transform: uppercase;
