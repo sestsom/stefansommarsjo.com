@@ -160,12 +160,12 @@ figure:not(.dark) img, img.white {
   border-bottom: 1px solid #EAEAEA;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
-@media (prefers-color-scheme: dark) {
+/*@media (prefers-color-scheme: dark) {
   .navbar-custom {
     background: #505050;
     border-bottom: 1px solid #AAA;
   }
-}
+}*/
 
 .navbar-custom .nav li a {
   text-transform: uppercase;
@@ -443,8 +443,8 @@ footer .theme-by {
 .post-heading .post-meta,
 .page-meta {
   color: #808080;
-  font-size: 18px;
-  font-style: italic;
+  font-size: 15px;
+  /*font-style: italic;*/
   margin: 0 0 10px;
 }
 .page-meta {
