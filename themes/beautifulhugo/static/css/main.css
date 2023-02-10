@@ -443,10 +443,10 @@ footer .theme-by {
 .post-heading .post-meta,
 .page-meta {
   color: #808080;
-  font-size: 14px;
+  font-size: 15px;
   /*font-style: italic;*/
   margin: 0 0 10px;
-  opacity: 0.7;
+  opacity: 0.6;
 }
 .page-meta {
   align-self: center;
