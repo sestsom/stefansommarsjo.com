@@ -254,6 +254,7 @@ figure:not(.dark) img, img.white {
 .navbar-custom .avatar-container  .avatar-img-border {
   width: 100%;
   border-radius: 50%;
+  border: 1px;
   margin-left: -50%;
   display: inline-block;
   box-shadow: 0 0 8px rgba(0, 0, 0, .8);
@@ -452,7 +453,7 @@ footer .theme-by {
   font-size: 15px;
   /*font-style: italic;*/
   margin: 0 0 10px;
-  opacity: 0.7;
+  opacity: 0.8;
 }
 .page-meta {
   align-self: center;
