@@ -254,7 +254,7 @@ figure:not(.dark) img, img.white {
 .navbar-custom .avatar-container  .avatar-img-border {
   width: 100%;
   border-radius: 50%;
-  border: 5px;
+  
   margin-left: -50%;
   display: inline-block;
   box-shadow: 0 0 8px rgba(0, 0, 0, .8);
@@ -265,6 +265,7 @@ figure:not(.dark) img, img.white {
   width: 100%;
   border-radius: 50%;
   display: block;
+  border: 5px;
 }
 
 .navbar-custom.top-nav-short .avatar-container{
