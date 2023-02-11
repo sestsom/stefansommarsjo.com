@@ -87,6 +87,11 @@ googleAnalytics = "G-7ML9J0RG11"
     name = "Blog"
     url = ""
     weight = 1
+	
+[[menu.main]]
+    name = "Photography"
+    url = "https://www.flickr.com/photos/stefansommarsjo/"
+    weight = 2
 
 [[menu.main]]
     name = "About"
