@@ -74,11 +74,11 @@ blockquote {
 blockquote p:first-child {
   margin-top: 0;
 }
-@media (prefers-color-scheme: dark) {
+/*@media (prefers-color-scheme: dark) {
   blockquote {
     border-left: 5px solid #444;
   }
-}
+}*/
 hr.small {
   max-width: 100px;
   margin: 15px auto;
