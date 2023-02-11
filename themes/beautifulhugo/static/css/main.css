@@ -16,12 +16,12 @@ body {
  /* opacity: 0.8;*/
   
 }
-@media (prefers-color-scheme: dark) {
+/*@media (prefers-color-scheme: dark) {
   body {
     background: black;
     color: white;
   }
-}
+}*/
 .container[role=main] {
   margin-bottom:50px;
   flex: 1 0 auto;
