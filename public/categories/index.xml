@@ -6,7 +6,25 @@
     <description>Recent content in Categories on Das Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.stefansommarsjo.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 15 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.stefansommarsjo.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Coding</title>
+      <link>https://www.stefansommarsjo.com/categories/coding/</link>
+      <pubDate>Wed, 15 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.stefansommarsjo.com/categories/coding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Developing</title>
+      <link>https://www.stefansommarsjo.com/categories/developing/</link>
+      <pubDate>Wed, 15 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.stefansommarsjo.com/categories/developing/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Artificial Intelligence</title>
       <link>https://www.stefansommarsjo.com/categories/artificial-intelligence/</link>
@@ -22,24 +40,6 @@
       <pubDate>Thu, 09 Feb 2023 00:00:00 +0000</pubDate>
       
       <guid>https://www.stefansommarsjo.com/categories/evolution/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Coding</title>
-      <link>https://www.stefansommarsjo.com/categories/coding/</link>
-      <pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.stefansommarsjo.com/categories/coding/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Developing</title>
-      <link>https://www.stefansommarsjo.com/categories/developing/</link>
-      <pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.stefansommarsjo.com/categories/developing/</guid>
       <description></description>
     </item>
     

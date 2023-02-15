@@ -6,7 +6,17 @@
     <description>Recent content in Posts on Das Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.stefansommarsjo.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 15 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.stefansommarsjo.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Set Up Twitter Card in Hugo</title>
+      <link>https://www.stefansommarsjo.com/posts/set-up-twitter-card-in-hugo/</link>
+      <pubDate>Wed, 15 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.stefansommarsjo.com/posts/set-up-twitter-card-in-hugo/</guid>
+      <description>&lt;p&gt;Choose a Twitter Card type: Twitter offers several types of Cards, such as summary, summary_large_image, app, player, and more. You can choose the card type that suits your content the best. In this example, we will use the summary_large_image card, which allows for a large image and a title, description, and website URL.&lt;/p&gt;
+&lt;p&gt;Add meta tags to the site head: Open the head.html file in your Hugo theme, and add the following meta tags to the head section:&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>The Birth of the World: From Chaos to Creation</title>
       <link>https://www.stefansommarsjo.com/posts/the-birth-of-the-world-from-chaos-to-creation/</link>
@@ -19,16 +29,6 @@
 
 &lt;p&gt;The origin of the world has been a topic of fascination and speculation for thousands of years. Many cultures and religions have their own creation stories, each providing unique insights into the forces that brought the universe into being.&lt;/p&gt;
 &lt;p&gt;But regardless of the particular narrative, the underlying theme is the same: the world emerged from chaos and took form through a process of creation.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Set Up Twitter Card in Hugo</title>
-      <link>https://www.stefansommarsjo.com/posts/set-up-twitter-card-in-hugo/</link>
-      <pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.stefansommarsjo.com/posts/set-up-twitter-card-in-hugo/</guid>
-      <description>&lt;p&gt;Choose a Twitter Card type: Twitter offers several types of Cards, such as summary, summary_large_image, app, player, and more. You can choose the card type that suits your content the best. In this example, we will use the summary_large_image card, which allows for a large image and a title, description, and website URL.&lt;/p&gt;
-&lt;p&gt;Add meta tags to the site head: Open the head.html file in your Hugo theme, and add the following meta tags to the head section:&lt;/p&gt;</description>
     </item>
     
     <item>

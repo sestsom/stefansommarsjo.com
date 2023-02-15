@@ -1,7 +1,7 @@
 +++
 author = "Stefan Sommarsjö"
 title = "Set Up Twitter Card in Hugo"
-date = "2023-02-04"
+date = "2023-02-15"
 description = "How to add Hugo twitter card"
 thumbnail = "/img/random/pythoncross.jpg"
 tags = [

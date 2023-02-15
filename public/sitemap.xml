@@ -2,16 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.stefansommarsjo.com/categories/</loc>
+    <lastmod>2023-02-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.stefansommarsjo.com/categories/coding/</loc>
+    <lastmod>2023-02-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.stefansommarsjo.com/</loc>
+    <lastmod>2023-02-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.stefansommarsjo.com/categories/developing/</loc>
+    <lastmod>2023-02-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.stefansommarsjo.com/tags/hugo/</loc>
+    <lastmod>2023-02-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.stefansommarsjo.com/posts/</loc>
+    <lastmod>2023-02-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.stefansommarsjo.com/posts/set-up-twitter-card-in-hugo/</loc>
+    <lastmod>2023-02-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.stefansommarsjo.com/tags/</loc>
+    <lastmod>2023-02-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.stefansommarsjo.com/tags/twitter/</loc>
+    <lastmod>2023-02-15T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://www.stefansommarsjo.com/tags/ai/</loc>
     <lastmod>2023-02-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.stefansommarsjo.com/categories/artificial-intelligence/</loc>
-    <lastmod>2023-02-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.stefansommarsjo.com/categories/</loc>
-    <lastmod>2023-02-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.stefansommarsjo.com/</loc>
     <lastmod>2023-02-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.stefansommarsjo.com/categories/evolution/</loc>
@@ -23,34 +44,13 @@
     <loc>https://www.stefansommarsjo.com/tags/mythology/</loc>
     <lastmod>2023-02-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.stefansommarsjo.com/posts/</loc>
-    <lastmod>2023-02-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.stefansommarsjo.com/tags/</loc>
-    <lastmod>2023-02-09T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://www.stefansommarsjo.com/posts/the-birth-of-the-world-from-chaos-to-creation/</loc>
     <lastmod>2023-02-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.stefansommarsjo.com/categories/coding/</loc>
-    <lastmod>2023-02-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.stefansommarsjo.com/categories/developing/</loc>
-    <lastmod>2023-02-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.stefansommarsjo.com/tags/hugo/</loc>
-    <lastmod>2023-02-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.stefansommarsjo.com/tags/python/</loc>
     <lastmod>2023-02-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.stefansommarsjo.com/posts/set-up-twitter-card-in-hugo/</loc>
-    <lastmod>2023-02-04T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://www.stefansommarsjo.com/posts/simple-crosshair-in-python/</loc>
-    <lastmod>2023-02-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.stefansommarsjo.com/tags/twitter/</loc>
     <lastmod>2023-02-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.stefansommarsjo.com/tags/health/</loc>
