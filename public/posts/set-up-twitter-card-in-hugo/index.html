@@ -10,9 +10,9 @@
  
 
 
-      <title>Overview of all pages with the tag #Tags - Stefan Sommarsjö</title>
+      <title>Set Up Twitter Card in Hugo - Stefan Sommarsjö</title>
 
-  <meta name="description" content="Overview of all pages with the tag #Tags, such as: AI">
+  <meta name="description" content="How to add Hugo twitter card">
   <meta name="author" content="Stefan Sommarsjö"/><script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -33,14 +33,64 @@
   
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https:\/\/www.stefansommarsjo.com",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "https:\/\/www.stefansommarsjo.com\/posts\/set-up-twitter-card-in-hugo\/",
+          "name": "Set up twitter card in hugo"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : "Stefan Sommarsjö"
+  },
+  "headline": "Set Up Twitter Card in Hugo",
+  "description" : "How to add Hugo twitter card",
+  "inLanguage" : "en",
+  "wordCount":  273 ,
+  "datePublished" : "2023-02-04T00:00:00",
+  "dateModified" : "2023-02-04T00:00:00",
+  "image" : "https:\/\/www.stefansommarsjo.com\/img\/stefansommarsjo.png",
+  "keywords" : [ "Hugo, Twitter" ],
+  "mainEntityOfPage" : "https:\/\/www.stefansommarsjo.com\/posts\/set-up-twitter-card-in-hugo\/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "https:\/\/www.stefansommarsjo.com",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "https:\/\/www.stefansommarsjo.com\/img\/stefansommarsjo.png",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
 
-<meta property="og:title" content="Tags" />
+<meta property="og:title" content="Set Up Twitter Card in Hugo" />
+<meta property="og:description" content="How to add Hugo twitter card">
 <meta property="og:image" content="https://www.stefansommarsjo.com/img/stefansommarsjo.png" />
-<meta property="og:url" content="https://www.stefansommarsjo.com/tags/" />
+<meta property="og:url" content="https://www.stefansommarsjo.com/posts/set-up-twitter-card-in-hugo/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Das Blog" />
 
-  <meta name="twitter:title" content="Tags" />
+  <meta name="twitter:title" content="Set Up Twitter Card in Hugo" />
+  <meta name="twitter:description" content="How to add Hugo twitter card">
   <meta name="twitter:image" content="https://www.stefansommarsjo.com/img/stefansommarsjo.png" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:site" content="@sestsom" />
@@ -195,9 +245,9 @@ if (!doNotTrack) {
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <div class="tags-heading">
+            <div class="posts-heading">
               
-                <h1>Tags</h1>
+                <h1>Set Up Twitter Card in Hugo</h1>
               
               
                 <hr class="small">
@@ -214,180 +264,126 @@ if (!doNotTrack) {
 
 
     
-
-
-
 <div class="container" role="main">
-  <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1"> 
-    <article class="post-preview">
-      <div class="panel-group" id="accordion">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        <p>Choose a Twitter Card type: Twitter offers several types of Cards, such as summary, summary_large_image, app, player, and more. You can choose the card type that suits your content the best. In this example, we will use the summary_large_image card, which allows for a large image and a title, description, and website URL.</p>
+<p>Add meta tags to the site head: Open the head.html file in your Hugo theme, and add the following meta tags to the head section:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">meta</span> <span class="na">name</span><span class="o">=</span><span class="s">&#34;twitter:card&#34;</span> <span class="na">content</span><span class="o">=</span><span class="s">&#34;summary_large_image&#34;</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">meta</span> <span class="na">name</span><span class="o">=</span><span class="s">&#34;twitter:title&#34;</span> <span class="na">content</span><span class="o">=</span><span class="s">&#34;{{ .Title }}&#34;</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">meta</span> <span class="na">name</span><span class="o">=</span><span class="s">&#34;twitter:description&#34;</span> <span class="na">content</span><span class="o">=</span><span class="s">&#34;{{ .Description }}&#34;</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">meta</span> <span class="na">name</span><span class="o">=</span><span class="s">&#34;twitter:image&#34;</span> <span class="na">content</span><span class="o">=</span><span class="s">&#34;{{ .Site.BaseURL }}{{ .Params.images }}&#34;</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">meta</span> <span class="na">name</span><span class="o">=</span><span class="s">&#34;twitter:site&#34;</span> <span class="na">content</span><span class="o">=</span><span class="s">&#34;{{ .Site.Params.twitter }}&#34;</span><span class="p">&gt;</span>
+</span></span></code></pre></div><p>These meta tags tell Twitter what type of Card you want to use, and what information to display. Note that we are using Hugo variables (such as .Title and .Description) to populate the content dynamically.</p>
+<p>Set up front matter for each post: In each post&rsquo;s front matter, you can add additional metadata for Twitter Cards. Here&rsquo;s an example:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl">---
+</span></span><span class="line"><span class="cl">title: My awesome post
+</span></span><span class="line"><span class="cl">description: This is a summary of my post that will be displayed on Twitter
+</span></span><span class="line"><span class="cl">images: /images/my-post-image.png
+</span></span><span class="line"><span class="cl">twitter_creator: &#34;@myusername&#34;
+</span></span><span class="line"><span class="cl">---
+</span></span></code></pre></div><p>In this example, we&rsquo;ve added the post&rsquo;s title and description, as well as the URL for the post&rsquo;s image. We&rsquo;ve also included the Twitter username of the post&rsquo;s creator.</p>
+<p>Test the Cards: Once you&rsquo;ve set up Twitter Cards for your Hugo site, you should test them to make sure they are displaying properly. You can use Twitter&rsquo;s Card Validator tool to do this. Simply enter the URL of one of your posts, and the tool will display the Card that Twitter will use when someone shares that post.</p>
+
         
-          <div class="panel panel-default">
-            <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapseai" data-parent="#accordion">
-                <div class="panel-heading" id="headerai">
-                  <h4 class="panel-title">
-                      ai
-                    <span class="badge">3</span>
-                  </h4>
-                </div>
-            </a>
-            <div id="collapseai" class="panel-collapse collapse">
-              <div class="panel-body">
-                <a href="https://www.stefansommarsjo.com/tags/ai/" class="list-group-item view-all">
-                View all</a>
-                <div class="list-group">
-                  
-                    <a href="https://www.stefansommarsjo.com/posts/the-birth-of-the-world-from-chaos-to-creation/" class="list-group-item">The Birth of the World: From Chaos to Creation</a>
-                  
-                    <a href="https://www.stefansommarsjo.com/posts/exploring-midjourney/" class="list-group-item">Exploring Midjourney, Part 1</a>
-                  
-                    <a href="https://www.stefansommarsjo.com/posts/improve-with-ai/" class="list-group-item">How AI Can Improve Project Planning and Management</a>
-                  
-                </div>
-              </div>
-            </div>
+          <div class="blog-tags">
+            
+              <a href="https://www.stefansommarsjo.com/tags/hugo/">Hugo</a>&nbsp;
+            
+              <a href="https://www.stefansommarsjo.com/tags/twitter/">Twitter</a>&nbsp;
+            
           </div>
         
-          <div class="panel panel-default">
-            <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapsemidjourney" data-parent="#accordion">
-                <div class="panel-heading" id="headermidjourney">
-                  <h4 class="panel-title">
-                      midjourney
-                    <span class="badge">2</span>
-                  </h4>
-                </div>
-            </a>
-            <div id="collapsemidjourney" class="panel-collapse collapse">
-              <div class="panel-body">
-                <a href="https://www.stefansommarsjo.com/tags/midjourney/" class="list-group-item view-all">
-                View all</a>
-                <div class="list-group">
-                  
-                    <a href="https://www.stefansommarsjo.com/posts/the-birth-of-the-world-from-chaos-to-creation/" class="list-group-item">The Birth of the World: From Chaos to Creation</a>
-                  
-                    <a href="https://www.stefansommarsjo.com/posts/exploring-midjourney/" class="list-group-item">Exploring Midjourney, Part 1</a>
-                  
-                </div>
-              </div>
-            </div>
-          </div>
+
         
-          <div class="panel panel-default">
-            <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapsehealth" data-parent="#accordion">
-                <div class="panel-heading" id="headerhealth">
-                  <h4 class="panel-title">
-                      health
-                    <span class="badge">1</span>
-                  </h4>
-                </div>
-            </a>
-            <div id="collapsehealth" class="panel-collapse collapse">
-              <div class="panel-body">
-                <a href="https://www.stefansommarsjo.com/tags/health/" class="list-group-item view-all">
-                View all</a>
-                <div class="list-group">
-                  
-                    <a href="https://www.stefansommarsjo.com/posts/shilajit-its-no-shit/" class="list-group-item">Shilajit, it&#39;s No Shit</a>
-                  
-                </div>
+            <hr/>
+            <section id="social-share">
+              <div class="list-inline footer-links">
+                
+
+<div class="share-box" aria-hidden="true">
+    <ul class="share">
+      
+      <li>
+        <a href="//twitter.com/share?url=https%3a%2f%2fwww.stefansommarsjo.com%2fposts%2fset-up-twitter-card-in-hugo%2f&amp;text=Set%20Up%20Twitter%20Card%20in%20Hugo&amp;via=sestsom" target="_blank" title="Share on Twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.stefansommarsjo.com%2fposts%2fset-up-twitter-card-in-hugo%2f" target="_blank" title="Share on Facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//reddit.com/submit?url=https%3a%2f%2fwww.stefansommarsjo.com%2fposts%2fset-up-twitter-card-in-hugo%2f&amp;title=Set%20Up%20Twitter%20Card%20in%20Hugo" target="_blank" title="Share on Reddit">
+          <i class="fab fa-reddit"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fwww.stefansommarsjo.com%2fposts%2fset-up-twitter-card-in-hugo%2f&amp;title=Set%20Up%20Twitter%20Card%20in%20Hugo" target="_blank" title="Share on LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fwww.stefansommarsjo.com%2fposts%2fset-up-twitter-card-in-hugo%2f&amp;title=Set%20Up%20Twitter%20Card%20in%20Hugo" target="_blank" title="Share on StumbleUpon">
+          <i class="fab fa-stumbleupon"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fwww.stefansommarsjo.com%2fposts%2fset-up-twitter-card-in-hugo%2f&amp;description=Set%20Up%20Twitter%20Card%20in%20Hugo" target="_blank" title="Share on Pinterest">
+          <i class="fab fa-pinterest"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+  
+
               </div>
-            </div>
-          </div>
+            </section>
         
-          <div class="panel panel-default">
-            <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapsehugo" data-parent="#accordion">
-                <div class="panel-heading" id="headerhugo">
-                  <h4 class="panel-title">
-                      hugo
-                    <span class="badge">1</span>
-                  </h4>
-                </div>
-            </a>
-            <div id="collapsehugo" class="panel-collapse collapse">
-              <div class="panel-body">
-                <a href="https://www.stefansommarsjo.com/tags/hugo/" class="list-group-item view-all">
-                View all</a>
-                <div class="list-group">
-                  
-                    <a href="https://www.stefansommarsjo.com/posts/set-up-twitter-card-in-hugo/" class="list-group-item">Set Up Twitter Card in Hugo</a>
-                  
-                </div>
-              </div>
-            </div>
-          </div>
+
         
-          <div class="panel panel-default">
-            <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapsemythology" data-parent="#accordion">
-                <div class="panel-heading" id="headermythology">
-                  <h4 class="panel-title">
-                      mythology
-                    <span class="badge">1</span>
-                  </h4>
-                </div>
-            </a>
-            <div id="collapsemythology" class="panel-collapse collapse">
-              <div class="panel-body">
-                <a href="https://www.stefansommarsjo.com/tags/mythology/" class="list-group-item view-all">
-                View all</a>
-                <div class="list-group">
-                  
-                    <a href="https://www.stefansommarsjo.com/posts/the-birth-of-the-world-from-chaos-to-creation/" class="list-group-item">The Birth of the World: From Chaos to Creation</a>
-                  
-                </div>
-              </div>
-            </div>
-          </div>
+          
+
+          
         
-          <div class="panel panel-default">
-            <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapsepython" data-parent="#accordion">
-                <div class="panel-heading" id="headerpython">
-                  <h4 class="panel-title">
-                      python
-                    <span class="badge">1</span>
-                  </h4>
-                </div>
-            </a>
-            <div id="collapsepython" class="panel-collapse collapse">
-              <div class="panel-body">
-                <a href="https://www.stefansommarsjo.com/tags/python/" class="list-group-item view-all">
-                View all</a>
-                <div class="list-group">
-                  
-                    <a href="https://www.stefansommarsjo.com/posts/simple-crosshair-in-python/" class="list-group-item">Testing Simple Crosshair in Python</a>
-                  
-                </div>
-              </div>
-            </div>
-          </div>
+      </article>
+
+      
+        <ul class="pager blog-pager">
+          
+            <li class="previous">
+              <a href="https://www.stefansommarsjo.com/posts/simple-crosshair-in-python/" data-toggle="tooltip" data-placement="top" title="Testing Simple Crosshair in Python">&larr; Previous Post</a>
+            </li>
+          
+          
+            <li class="next">
+              <a href="https://www.stefansommarsjo.com/posts/the-birth-of-the-world-from-chaos-to-creation/" data-toggle="tooltip" data-placement="top" title="The Birth of the World: From Chaos to Creation">Next Post &rarr;</a>
+            </li>
+          
+        </ul>
+      
+
+
+      
         
-          <div class="panel panel-default">
-            <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapsetwitter" data-parent="#accordion">
-                <div class="panel-heading" id="headertwitter">
-                  <h4 class="panel-title">
-                      twitter
-                    <span class="badge">1</span>
-                  </h4>
-                </div>
-            </a>
-            <div id="collapsetwitter" class="panel-collapse collapse">
-              <div class="panel-body">
-                <a href="https://www.stefansommarsjo.com/tags/twitter/" class="list-group-item view-all">
-                View all</a>
-                <div class="list-group">
-                  
-                    <a href="https://www.stefansommarsjo.com/posts/set-up-twitter-card-in-hugo/" class="list-group-item">Set Up Twitter Card in Hugo</a>
-                  
-                </div>
-              </div>
-            </div>
-          </div>
         
-      </div>
-    </article>
+      
+
+    </div>
   </div>
 </div>
-
-
 
       
 <footer>
@@ -448,7 +444,7 @@ if (!doNotTrack) {
               </li>
           
           <li>
-            <a href="/tags/index.xml" title="RSS">
+            <a href="" title="RSS">
               <span class="fa-stack fa-lg">
                 <i class="fas fa-circle fa-stack-2x"></i>
                 <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
