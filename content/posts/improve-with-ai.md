@@ -1,8 +1,8 @@
 +++
 author = "Stefan Sommarsjö"
-title = "How AI Can Improve Project Planning and Management"
+title = "How AI can improve project planning and management"
 date = "2023-01-19"
-description = "How AI Can Improve Project Planning and Management"
+description = "Future of project planning and management"
 tags = [
     "AI",
 ]

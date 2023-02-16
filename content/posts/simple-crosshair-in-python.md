@@ -1,6 +1,6 @@
 +++
 author = "Stefan Sommarsjö"
-title = "Testing Simple Crosshair in Python"
+title = "Testing simple crosshair in Python"
 date = "2023-02-04"
 description = "Code for crosshair in python"
 thumbnail = "/img/random/pythoncross.jpg"

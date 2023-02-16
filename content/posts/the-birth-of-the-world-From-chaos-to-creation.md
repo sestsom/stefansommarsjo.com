@@ -1,6 +1,6 @@
 +++
 author = "Stefan Sommarsjö"
-title = "The Birth of the World: From Chaos to Creation"
+title = "The birth of the world: From chaos to creation"
 date = "2023-02-09"
 description = "Birth of the World"
 tags = [

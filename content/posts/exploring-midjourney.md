@@ -1,6 +1,6 @@
 +++
 author = "Stefan Sommarsjö"
-title = "Exploring Midjourney, Part 1"
+title = "Exploring Midjourney, part 1"
 date = "2023-01-21"
 description = "Midjourney"
 tags = [
