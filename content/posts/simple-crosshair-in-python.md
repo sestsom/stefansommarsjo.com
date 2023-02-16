@@ -6,7 +6,7 @@ description = "Code for crosshair in python"
 thumbnail = "/img/random/pythoncross.jpg"
 twitter_creator = "@sestsom"
 images = "/img/random/pythoncross.jpg"
-
+summary_large_image = "/img/random/pythoncross.jpg"
 tags = [
     "Python",
 ]
