@@ -1,8 +1,8 @@
 +++
 author = "Stefan Sommarsjö"
-title = "Set Up Twitter Card in Hugo"
+title = "Set up Twitter card in Hugo"
 date = "2023-02-15"
-description = "How to add Hugo twitter card"
+description = "Easy steps how to add Twitter card in Hugo"
 thumbnail = ""
 twitter_creator = "@sestsom"
 images = "/img/twitter/twitter.jpg"
