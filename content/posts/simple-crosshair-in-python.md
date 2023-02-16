@@ -4,6 +4,8 @@ title = "Testing simple crosshair in Python"
 date = "2023-02-04"
 description = "Code for crosshair in python"
 thumbnail = "/img/random/pythoncross.jpg"
+images = "/img/random/pythoncross.jpg"
+twitter_creator = "@sestsom"
 tags = [
     "Python",
 ]
