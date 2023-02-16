@@ -4,7 +4,7 @@ title = "Set Up Twitter Card in Hugo"
 date = "2023-02-15"
 description = "How to add Hugo twitter card"
 thumbnail = "/img/random/pythoncross.jpg"
-twitter_creator: "@sestsom"
+twitter_creator = "@sestsom"
 
 tags = [
     "Hugo",
