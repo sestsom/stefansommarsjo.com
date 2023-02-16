@@ -6,7 +6,7 @@ description = "How to add Hugo twitter card"
 thumbnail = ""
 twitter_creator = "@sestsom"
 images = "/img/twitter/twitter.jpg"
-
+summary_large_image = "/img/twitter/twitter.jpg"
 tags = [
     "Hugo",
 	"Twitter",
