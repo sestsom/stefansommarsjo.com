@@ -1,6 +1,6 @@
 +++
 author = "Stefan Sommarsjö"
-title = "Understanding the Structure of Docx Files: XML Schema, File and Folder Organization, and Common Errors"
+title = "Understanding the structure of docx files: XML schema, file and folder organization, and common errors"
 date = "2023-03-19"
 description = "Understanding the structure of Docx files and common errors"
 thumbnail = ""
