@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Office on Das Blog</title>
+    <link>https://www.stefansommarsjo.com/tags/office/</link>
+    <description>Recent content in Office on Das Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 19 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.stefansommarsjo.com/tags/office/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Understanding the Structure of Docx Files: XML Schema, File and Folder Organization, and Common Errors</title>
+      <link>https://www.stefansommarsjo.com/posts/understand-structure-of-docx-files/</link>
+      <pubDate>Sun, 19 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.stefansommarsjo.com/posts/understand-structure-of-docx-files/</guid>
+      <description>&lt;p&gt;Microsoft Word is one of the most used word processing tools worldwide.
+Word files are saved in the .docx file format, which is an open standard for storing documents.
+The .docx format uses XML, or Extensible Markup Language, to store text, images, and formatting information in a structured way.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -8,18 +8,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
   
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Set up Twitter card in Hugo">
-<meta name="twitter:description" content="Easy steps how to add Twitter card in Hugo">
-<meta name="twitter:image" content="https://www.stefansommarsjo.com/img/twitter/twitter.jpg">
+<meta name="twitter:title" content="Understanding the Structure of Docx Files: XML Schema, File and Folder Organization, and Common Errors">
+<meta name="twitter:description" content="Understanding the structure of Docx files and common errors">
+<meta name="twitter:image" content="https://www.stefansommarsjo.com/img/random/recovery.jpg">
 <meta name="twitter:site" content="">
   
 
  
 
 
-      <title>Set up Twitter card in Hugo - Stefan Sommarsjö</title>
+      <title>Understanding the Structure of Docx Files: XML Schema, File and Folder Organization, and Common Errors - Stefan Sommarsjö</title>
 
-  <meta name="description" content="Easy steps how to add Twitter card in Hugo">
+  <meta name="description" content="Understanding the structure of Docx files and common errors">
   <meta name="author" content="Stefan Sommarsjö"/><script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -55,8 +55,8 @@
         "@type": "ListItem",
         "position": 3,
         "item": {
-          "@id": "https:\/\/www.stefansommarsjo.com\/posts\/set-up-twitter-card-in-hugo\/",
-          "name": "Set up twitter card in hugo"
+          "@id": "https:\/\/www.stefansommarsjo.com\/posts\/understand-structure-of-docx-files\/",
+          "name": "Understanding the structure of docx files xml schema, file and folder organization, and common errors"
         }
     }]
 }
@@ -67,15 +67,15 @@
   "author": {
     "name" : "Stefan Sommarsjö"
   },
-  "headline": "Set up Twitter card in Hugo",
-  "description" : "Easy steps how to add Twitter card in Hugo",
+  "headline": "Understanding the Structure of Docx Files: XML Schema, File and Folder Organization, and Common Errors",
+  "description" : "Understanding the structure of Docx files and common errors",
   "inLanguage" : "en",
-  "wordCount":  273 ,
-  "datePublished" : "2023-02-15T00:00:00",
-  "dateModified" : "2023-02-15T00:00:00",
+  "wordCount":  830 ,
+  "datePublished" : "2023-03-19T00:00:00",
+  "dateModified" : "2023-03-19T00:00:00",
   "image" : "https:\/\/www.stefansommarsjo.com\/img\/stefansommarsjo.png",
-  "keywords" : [ "Hugo, Twitter" ],
-  "mainEntityOfPage" : "https:\/\/www.stefansommarsjo.com\/posts\/set-up-twitter-card-in-hugo\/",
+  "keywords" : [ "Docx, Office" ],
+  "mainEntityOfPage" : "https:\/\/www.stefansommarsjo.com\/posts\/understand-structure-of-docx-files\/",
   "publisher" : {
     "@type": "Organization",
     "name" : "https:\/\/www.stefansommarsjo.com",
@@ -89,15 +89,15 @@
 }
 </script>
 
-<meta property="og:title" content="Set up Twitter card in Hugo" />
-<meta property="og:description" content="Easy steps how to add Twitter card in Hugo">
+<meta property="og:title" content="Understanding the Structure of Docx Files: XML Schema, File and Folder Organization, and Common Errors" />
+<meta property="og:description" content="Understanding the structure of Docx files and common errors">
 <meta property="og:image" content="https://www.stefansommarsjo.com/img/stefansommarsjo.png" />
-<meta property="og:url" content="https://www.stefansommarsjo.com/posts/set-up-twitter-card-in-hugo/" />
+<meta property="og:url" content="https://www.stefansommarsjo.com/posts/understand-structure-of-docx-files/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Das Blog" />
 
-  <meta name="twitter:title" content="Set up Twitter card in Hugo" />
-  <meta name="twitter:description" content="Easy steps how to add Twitter card in Hugo">
+  <meta name="twitter:title" content="Understanding the Structure of Docx Files: XML Schema, File and Folder …" />
+  <meta name="twitter:description" content="Understanding the structure of Docx files and common errors">
   <meta name="twitter:image" content="https://www.stefansommarsjo.com/img/stefansommarsjo.png" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:site" content="@sestsom" />
@@ -254,7 +254,7 @@ if (!doNotTrack) {
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
             <div class="posts-heading">
               
-                <h1>Set up Twitter card in Hugo</h1>
+                <h1>Understanding the Structure of Docx Files: XML Schema, File and Folder Organization, and Common Errors</h1>
               
               
                 <hr class="small">
@@ -275,30 +275,70 @@ if (!doNotTrack) {
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
-        <p>Choose a Twitter Card type: Twitter offers several types of Cards, such as summary, summary_large_image, app, player, and more. You can choose the card type that suits your content the best. In this example, we will use the summary_large_image card, which allows for a large image and a title, description, and website URL.</p>
-<p>Add meta tags to the site head: Open the head.html file in your Hugo theme, and add the following meta tags to the head section:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">meta</span> <span class="na">name</span><span class="o">=</span><span class="s">&#34;twitter:card&#34;</span> <span class="na">content</span><span class="o">=</span><span class="s">&#34;summary_large_image&#34;</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">meta</span> <span class="na">name</span><span class="o">=</span><span class="s">&#34;twitter:title&#34;</span> <span class="na">content</span><span class="o">=</span><span class="s">&#34;{{ .Title }}&#34;</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">meta</span> <span class="na">name</span><span class="o">=</span><span class="s">&#34;twitter:description&#34;</span> <span class="na">content</span><span class="o">=</span><span class="s">&#34;{{ .Description }}&#34;</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">meta</span> <span class="na">name</span><span class="o">=</span><span class="s">&#34;twitter:image&#34;</span> <span class="na">content</span><span class="o">=</span><span class="s">&#34;{{ .Site.BaseURL }}{{ .Params.images }}&#34;</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">meta</span> <span class="na">name</span><span class="o">=</span><span class="s">&#34;twitter:site&#34;</span> <span class="na">content</span><span class="o">=</span><span class="s">&#34;{{ .Site.Params.twitter }}&#34;</span><span class="p">&gt;</span>
-</span></span></code></pre></div><p>These meta tags tell Twitter what type of Card you want to use, and what information to display. Note that we are using Hugo variables (such as .Title and .Description) to populate the content dynamically.</p>
-<p>Set up front matter for each post: In each post&rsquo;s front matter, you can add additional metadata for Twitter Cards. Here&rsquo;s an example:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl">---
-</span></span><span class="line"><span class="cl">title: My awesome post
-</span></span><span class="line"><span class="cl">description: This is a summary of my post that will be displayed on Twitter
-</span></span><span class="line"><span class="cl">images: /images/my-post-image.png
-</span></span><span class="line"><span class="cl">twitter_creator: &#34;@myusername&#34;
-</span></span><span class="line"><span class="cl">---
-</span></span></code></pre></div><p>In this example, we&rsquo;ve added the post&rsquo;s title and description, as well as the URL for the post&rsquo;s image. We&rsquo;ve also included the Twitter username of the post&rsquo;s creator.</p>
-<p>Test the Cards: Once you&rsquo;ve set up Twitter Cards for your Hugo site, you should test them to make sure they are displaying properly. You can use Twitter&rsquo;s Card Validator tool to do this. Simply enter the URL of one of your posts, and the tool will display the Card that Twitter will use when someone shares that post.</p>
+        <p>Microsoft Word is one of the most used word processing tools worldwide.
+Word files are saved in the .docx file format, which is an open standard for storing documents.
+The .docx format uses XML, or Extensible Markup Language, to store text, images, and formatting information in a structured way.</p>
+<h2 id="file-and-folder-structure">File and Folder Structure</h2>
+<p>A .docx file is a collection of files and folders that are zipped together into a single package. When you create a Word document and save it as a .docx file, Word creates a folder with several subfolders and files inside it. This folder is then zipped into a single file with the .docx extension.
+The folder structure inside a .docx file looks like this:
+docProps: Contains XML files that store document properties, such as the title, author, and creation date.</p>
+<ul>
+<li>_rels: Contains XML files that define the relationships between the various parts of the document.</li>
+<li>word: Contains the main content of the document, including the text, images, and formatting information.</li>
+<li>document.xml: Contains the actual content of the document, stored in XML format.</li>
+<li>fontTable.xml: Contains information about the fonts used in the document.
+settings.xml: Contains settings for the document, such as page margins and header/footer information.</li>
+<li>styles.xml: Contains the styles used in the document, such as headings and paragraph styles.</li>
+<li>[Content_Types].xml: Defines the types of content that are included in the document.</li>
+</ul>
+<h2 id="xml-schema">XML Schema</h2>
+<p>The XML schema used to create and store .docx files is known as the Open Packaging Conventions (OPC) XML schema. This schema defines the structure of the .docx file and the relationships between its various parts.
+The OPC schema uses a concept known as a package to represent a collection of related files and folders. A package is defined by an XML file called [Content_Types].xml, which lists the various content types that are included in the package. This allows different applications to understand the contents of the package and process it accordingly.
+Each part of the package is defined by an XML file, which contains the actual content of the part. For example, the document.xml file contains the main content of the document, while the styles.xml file contains the styles used in the document.</p>
+<h2 id="common-xml-file-errors">Common XML File Errors</h2>
+<p>XML files can become corrupted due to a variety of reasons, such as hardware failure, software bugs, or user error. When an XML file becomes corrupt, it can cause the corresponding part of the .docx file to become unreadable, which can in turn cause the entire document to become corrupt and not easily recoverable.
+Some common XML file errors that can cause a .docx file to become corrupt include:</p>
+<ul>
+<li>Invalid characters: XML files are sensitive to certain characters, such as angle brackets and ampersands. If these characters are not properly escaped or encoded, they can cause the file to become invalid.</li>
+<li>Missing or invalid tags: XML files must have a well-formed structure, with opening and closing tags that match each other. If a tag is missing or invalid, the file can become unreadable.</li>
+<li>Incorrect namespaces: XML files use namespaces to define the structure of the file. If the namespaces are incorrect, the file can become corrupt.</li>
+<li>Invalid XML syntax: XML files must adhere to a specific syntax, with proper nesting and formatting of elements. If the syntax is invalid, the file can become corrupt.</li>
+</ul>
+<p>Example of a simple XML file in incorrect format:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-xml" data-lang="xml"><span class="line"><span class="cl"><span class="cp">&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34; standalone=&#34;yes&#34;?&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="nt">&lt;w:document</span> <span class="na">xmlns:w=</span><span class="s">&#34;http://schemas.openxmlformats.org/wordprocessingml/2006/main&#34;</span><span class="nt">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&lt;w:body&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;w:p&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&lt;w:r&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="nt">&lt;w:t&gt;</span>Hello, World!
+</span></span><span class="line"><span class="cl">      <span class="nt">&lt;/w:r&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;/w:p&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&lt;/w:body&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="nt">&lt;/w:document&gt;</span>
+</span></span></code></pre></div><p>In this example, the closing tag for the w:t element is missing. This results in an incorrectly formatted XML file, which will cause errors when trying to open or process the file.
+To correct this error, we need to add the missing closing tag for the w:t element:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-xml" data-lang="xml"><span class="line"><span class="cl"><span class="cp">&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34; standalone=&#34;yes&#34;?&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="nt">&lt;w:document</span> <span class="na">xmlns:w=</span><span class="s">&#34;http://schemas.openxmlformats.org/wordprocessingml/2006/main&#34;</span><span class="nt">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&lt;w:body&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;w:p&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&lt;w:r&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="nt">&lt;w:t&gt;</span>Hello, World!<span class="nt">&lt;/w:t&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&lt;/w:r&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;/w:p&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&lt;/w:body&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="nt">&lt;/w:document&gt;</span>
+</span></span></code></pre></div><p>Now the XML file is correctly formatted, with all elements properly closed.
+If the error is a missing closing tag for a single element in a Word document saved in the Open XML format, it&rsquo;s possible that you may still be able to open the document in Word.
+In many cases, Word may be able to detect the error and attempt to correct the missing tag or ignore it. However, depending on the severity of the error and how it affects the overall structure of the document, the file may not be able to be opened or may be missing some content.
+If the file can be opened but is missing content, you may need to manually edit the XML code to add the missing closing tag or correct any other errors that are preventing the document from being displayed correctly.
+It&rsquo;s always a clever idea to have backups of important documents, in case of file corruption or other issues that prevent the file from being opened or used correctly. Additionally, it&rsquo;s important to regularly save and check the integrity of files to avoid potential data loss due to file corruption or other errors.</p>
 
         
           <div class="blog-tags">
             
-              <a href="https://www.stefansommarsjo.com/tags/hugo/">Hugo</a>&nbsp;
+              <a href="https://www.stefansommarsjo.com/tags/docx/">Docx</a>&nbsp;
             
-              <a href="https://www.stefansommarsjo.com/tags/twitter/">Twitter</a>&nbsp;
+              <a href="https://www.stefansommarsjo.com/tags/office/">Office</a>&nbsp;
             
           </div>
         
@@ -313,42 +353,42 @@ if (!doNotTrack) {
     <ul class="share">
       
       <li>
-        <a href="//twitter.com/share?url=https%3a%2f%2fwww.stefansommarsjo.com%2fposts%2fset-up-twitter-card-in-hugo%2f&amp;text=Set%20up%20Twitter%20card%20in%20Hugo&amp;via=sestsom" target="_blank" title="Share on Twitter">
+        <a href="//twitter.com/share?url=https%3a%2f%2fwww.stefansommarsjo.com%2fposts%2funderstand-structure-of-docx-files%2f&amp;text=Understanding%20the%20Structure%20of%20Docx%20Files%3a%20XML%20Schema%2c%20File%20and%20Folder%20Organization%2c%20and%20Common%20Errors&amp;via=sestsom" target="_blank" title="Share on Twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
   
       
       <li>
-        <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.stefansommarsjo.com%2fposts%2fset-up-twitter-card-in-hugo%2f" target="_blank" title="Share on Facebook">
+        <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.stefansommarsjo.com%2fposts%2funderstand-structure-of-docx-files%2f" target="_blank" title="Share on Facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
   
       
       <li>
-        <a href="//reddit.com/submit?url=https%3a%2f%2fwww.stefansommarsjo.com%2fposts%2fset-up-twitter-card-in-hugo%2f&amp;title=Set%20up%20Twitter%20card%20in%20Hugo" target="_blank" title="Share on Reddit">
+        <a href="//reddit.com/submit?url=https%3a%2f%2fwww.stefansommarsjo.com%2fposts%2funderstand-structure-of-docx-files%2f&amp;title=Understanding%20the%20Structure%20of%20Docx%20Files%3a%20XML%20Schema%2c%20File%20and%20Folder%20Organization%2c%20and%20Common%20Errors" target="_blank" title="Share on Reddit">
           <i class="fab fa-reddit"></i>
         </a>
       </li>
   
       
       <li>
-        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fwww.stefansommarsjo.com%2fposts%2fset-up-twitter-card-in-hugo%2f&amp;title=Set%20up%20Twitter%20card%20in%20Hugo" target="_blank" title="Share on LinkedIn">
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fwww.stefansommarsjo.com%2fposts%2funderstand-structure-of-docx-files%2f&amp;title=Understanding%20the%20Structure%20of%20Docx%20Files%3a%20XML%20Schema%2c%20File%20and%20Folder%20Organization%2c%20and%20Common%20Errors" target="_blank" title="Share on LinkedIn">
           <i class="fab fa-linkedin"></i>
         </a>
       </li>
   
       
       <li>
-        <a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fwww.stefansommarsjo.com%2fposts%2fset-up-twitter-card-in-hugo%2f&amp;title=Set%20up%20Twitter%20card%20in%20Hugo" target="_blank" title="Share on StumbleUpon">
+        <a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fwww.stefansommarsjo.com%2fposts%2funderstand-structure-of-docx-files%2f&amp;title=Understanding%20the%20Structure%20of%20Docx%20Files%3a%20XML%20Schema%2c%20File%20and%20Folder%20Organization%2c%20and%20Common%20Errors" target="_blank" title="Share on StumbleUpon">
           <i class="fab fa-stumbleupon"></i>
         </a>
       </li>
   
       
       <li>
-        <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fwww.stefansommarsjo.com%2fposts%2fset-up-twitter-card-in-hugo%2f&amp;description=Set%20up%20Twitter%20card%20in%20Hugo" target="_blank" title="Share on Pinterest">
+        <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fwww.stefansommarsjo.com%2fposts%2funderstand-structure-of-docx-files%2f&amp;description=Understanding%20the%20Structure%20of%20Docx%20Files%3a%20XML%20Schema%2c%20File%20and%20Folder%20Organization%2c%20and%20Common%20Errors" target="_blank" title="Share on Pinterest">
           <i class="fab fa-pinterest"></i>
         </a>
       </li>
@@ -371,13 +411,9 @@ if (!doNotTrack) {
         <ul class="pager blog-pager">
           
             <li class="previous">
-              <a href="https://www.stefansommarsjo.com/posts/the-birth-of-the-world-from-chaos-to-creation/" data-toggle="tooltip" data-placement="top" title="The birth of the world: From chaos to creation">&larr; Previous Post</a>
+              <a href="https://www.stefansommarsjo.com/posts/set-up-twitter-card-in-hugo/" data-toggle="tooltip" data-placement="top" title="Set up Twitter card in Hugo">&larr; Previous Post</a>
             </li>
           
-          
-            <li class="next">
-              <a href="https://www.stefansommarsjo.com/posts/understand-structure-of-docx-files/" data-toggle="tooltip" data-placement="top" title="Understanding the Structure of Docx Files: XML Schema, File and Folder Organization, and Common Errors">Next Post &rarr;</a>
-            </li>
           
         </ul>
       
