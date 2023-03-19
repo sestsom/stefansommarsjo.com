@@ -6,7 +6,7 @@ description = "Understanding the structure of Docx files and common errors"
 thumbnail = "/img/random/recovery.jpg"
 twitter_creator = "@sestsom"
 images = "/img/random/recovery.jpg"
-summary_large_image = "/img/random/recovery.jpg"
+
 tags = [
     "Docx",
 	"Office",
