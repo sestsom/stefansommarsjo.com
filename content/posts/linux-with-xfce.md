@@ -17,7 +17,7 @@ categories = [
 ]
 series = ["Linux"]
 aliases = ["linux-and-xfce-running-on-my-laptop"]
-draft = false
+draft = true
 +++
 My laptop love Linux running XFCE. It's amazing. Only thing missning are my Adobe creative cloud apps :-(. Dual booting solves it for now..
 
