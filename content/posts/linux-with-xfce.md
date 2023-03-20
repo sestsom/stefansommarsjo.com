@@ -1,6 +1,6 @@
 +++
 author = "Stefan Sommarsjö"
-title = "Linux with xfc"
+title = "Linux with XFCE"
 date = "2023-02-15"
 description = "Linux with xfce running on my laptop is awesome"
 thumbnail = ""
@@ -19,7 +19,7 @@ series = ["Linux"]
 aliases = ["linux-and-xfce-running-on-my-laptop"]
 draft = false
 +++
-My laptop love Linux running XFCE..
+My laptop love Linux running XFCE. It's amazing. Only thing missning are my Adobe creative cloud apps :-(. Dual booting solves it for now..
 
 
 {{< gallery >}}
