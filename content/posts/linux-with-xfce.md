@@ -1,9 +1,9 @@
 +++
 author = "Stefan Sommarsjö"
 title = "Linux with XFCE"
-date = "2023-02-15"
+date = "2023-03-20"
 description = "Linux with xfce running on my laptop is awesome"
-thumbnail = ""
+thumbnail = "/img/lxfce.jpg"
 twitter_creator = "@sestsom"
 images = "/img/lxfce.jpg"
 summary_large_image = "/img/lxfce.jpg"
