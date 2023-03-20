@@ -19,6 +19,16 @@ The .docx format uses XML, or Extensible Markup Language, to store text, images,
     </item>
     
     <item>
+      <title>Linux with xfc</title>
+      <link>https://www.stefansommarsjo.com/posts/linux-with-xfce/</link>
+      <pubDate>Wed, 15 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.stefansommarsjo.com/posts/linux-with-xfce/</guid>
+      <description>My laptop love Linux running XFCE..
+Linux and xfce</description>
+    </item>
+    
+    <item>
       <title>Set up Twitter card in Hugo</title>
       <link>https://www.stefansommarsjo.com/posts/set-up-twitter-card-in-hugo/</link>
       <pubDate>Wed, 15 Feb 2023 00:00:00 +0000</pubDate>
