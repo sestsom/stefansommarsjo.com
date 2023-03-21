@@ -13,8 +13,32 @@
       <pubDate>Mon, 20 Mar 2023 00:00:00 +0000</pubDate>
       
       <guid>https://www.stefansommarsjo.com/posts/linux-with-xfce/</guid>
-      <description>XFCE desktop environment requires fewer system resources, making it ideal for running on older hardware or low-powered machines. It runs smoothly on systems with as little as 512MB of RAM, making it an excellent option for lightweight laptops, netbooks, and desktops. Linux and xfce
-XFCE desktop environment is designed to be fast and responsive, providing users with a snappy and smooth user experience. Applications open quickly, and the desktop environment responds promptly to user input, making it an excellent choice for users who value speed and efficiency.</description>
+      <description>&lt;p&gt;XFCE desktop environment requires fewer system resources, making it ideal for running on older hardware or low-powered machines.
+It runs smoothly on systems with as little as 512MB of RAM, making it an excellent option for lightweight laptops, netbooks, and desktops.
+
+
+
+&lt;div class=&#34;gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition&#34; itemscope itemtype=&#34;http://schema.org/ImageGallery&#34;&gt;
+	  
+  
+  &lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.stefansommarsjo.com/css/hugo-easy-gallery.css&#34; /&gt;
+  &lt;div class=&#34;box&#34; &gt;
+    &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://www.stefansommarsjo.com/img/lxfce.jpg&#39;);&#34;&gt;
+        &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.stefansommarsjo.com/img/lxfce.jpg&#34; alt=&#34;Linux and xfce&#34;/&gt;
+      &lt;/div&gt;
+      &lt;a href=&#34;https://www.stefansommarsjo.com/img/lxfce.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            &lt;p&gt;Linux and xfce&lt;/p&gt;
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+
+
+&lt;/div&gt;
+
+XFCE desktop environment is designed to be fast and responsive, providing users with a snappy and smooth user experience.
+Applications open quickly, and the desktop environment responds promptly to user input, making it an excellent choice for users who value speed and efficiency.&lt;/p&gt;</description>
     </item>
     
   </channel>
