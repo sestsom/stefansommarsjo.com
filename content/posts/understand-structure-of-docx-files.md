@@ -46,7 +46,7 @@ XML files can become corrupted due to a variety of reasons, such as hardware fai
 Some common XML file errors that can cause a .docx file to become corrupt include:
 
 * **Invalid characters**: XML files are sensitive to certain characters, such as angle brackets and ampersands. If these characters are not properly escaped or encoded, they can cause the file to become invalid.
-* Missing or invalid tags: XML files must have a well-formed structure, with opening and closing tags that match each other. If a tag is missing or invalid, the file can become unreadable.
+* **Missing or invalid tags**: XML files must have a well-formed structure, with opening and closing tags that match each other. If a tag is missing or invalid, the file can become unreadable.
 * **Incorrect namespaces**: XML files use namespaces to define the structure of the file. If the namespaces are incorrect, the file can become corrupt.
 * **Invalid XML syntax**: XML files must adhere to a specific syntax, with proper nesting and formatting of elements. If the syntax is invalid, the file can become corrupt.
 
