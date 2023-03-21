@@ -27,14 +27,14 @@ The .docx format uses XML, or Extensible Markup Language, to store text, images,
 ## File and Folder Structure
 A .docx file is a collection of files and folders that are zipped together into a single package. When you create a Word document and save it as a .docx file, Word creates a folder with several subfolders and files inside it. This folder is then zipped into a single file with the .docx extension.
 The folder structure inside a .docx file looks like this:
-docProps: Contains XML files that store document properties, such as the title, author, and creation date.
-* _rels: Contains XML files that define the relationships between the various parts of the document.
-* word: Contains the main content of the document, including the text, images, and formatting information.
-* document.xml: Contains the actual content of the document, stored in XML format.
-* fontTable.xml: Contains information about the fonts used in the document.
-settings.xml: Contains settings for the document, such as page margins and header/footer information.
-* styles.xml: Contains the styles used in the document, such as headings and paragraph styles.
-* [Content_Types].xml: Defines the types of content that are included in the document.
+* **docProps**: Contains XML files that store document properties, such as the title, author, and creation date.
+* **_rels:** Contains XML files that define the relationships between the various parts of the document.
+* **word**: Contains the main content of the document, including the text, images, and formatting information.
+* **document.xml**: Contains the actual content of the document, stored in XML format.
+* **fontTable.xml**: Contains information about the fonts used in the document.
+* **settings.xml**: Contains settings for the document, such as page margins and header/footer information.
+* **styles.xml**: Contains the styles used in the document, such as headings and paragraph styles.
+* **[Content_Types].xml**: Defines the types of content that are included in the document.
 
 ## XML Schema
 The XML schema used to create and store .docx files is known as the Open Packaging Conventions (OPC) XML schema. This schema defines the structure of the .docx file and the relationships between its various parts.
@@ -45,10 +45,10 @@ Each part of the package is defined by an XML file, which contains the actual co
 XML files can become corrupted due to a variety of reasons, such as hardware failure, software bugs, or user error. When an XML file becomes corrupt, it can cause the corresponding part of the .docx file to become unreadable, which can in turn cause the entire document to become corrupt and not easily recoverable.
 Some common XML file errors that can cause a .docx file to become corrupt include:
 
-* Invalid characters: XML files are sensitive to certain characters, such as angle brackets and ampersands. If these characters are not properly escaped or encoded, they can cause the file to become invalid.
+* **Invalid characters**: XML files are sensitive to certain characters, such as angle brackets and ampersands. If these characters are not properly escaped or encoded, they can cause the file to become invalid.
 * Missing or invalid tags: XML files must have a well-formed structure, with opening and closing tags that match each other. If a tag is missing or invalid, the file can become unreadable.
-* Incorrect namespaces: XML files use namespaces to define the structure of the file. If the namespaces are incorrect, the file can become corrupt.
-* Invalid XML syntax: XML files must adhere to a specific syntax, with proper nesting and formatting of elements. If the syntax is invalid, the file can become corrupt.
+* **Incorrect namespaces**: XML files use namespaces to define the structure of the file. If the namespaces are incorrect, the file can become corrupt.
+* **Invalid XML syntax**: XML files must adhere to a specific syntax, with proper nesting and formatting of elements. If the syntax is invalid, the file can become corrupt.
 
 Example of a simple XML file in incorrect format:
 ```xml
