@@ -6,15 +6,15 @@
     <description>Recent content in Linux on Das Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.stefansommarsjo.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 20 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.stefansommarsjo.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Linux with XFCE</title>
+      <title>Linux on my laptop, embrace the power of Kali purple and XFCE</title>
       <link>https://www.stefansommarsjo.com/posts/linux-with-xfce/</link>
-      <pubDate>Wed, 15 Feb 2023 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 20 Mar 2023 00:00:00 +0000</pubDate>
       
       <guid>https://www.stefansommarsjo.com/posts/linux-with-xfce/</guid>
-      <description>My laptop love Linux running XFCE. It&amp;rsquo;s amazing. Only thing missning are my Adobe creative cloud apps :-(. Dual booting solves it for now..
-Linux and xfce</description>
+      <description>XFCE desktop environment requires fewer system resources, making it ideal for running on older hardware or low-powered machines. It runs smoothly on systems with as little as 512MB of RAM, making it an excellent option for lightweight laptops, netbooks, and desktops. Linux and xfce
+XFCE desktop environment is designed to be fast and responsive, providing users with a snappy and smooth user experience. Applications open quickly, and the desktop environment responds promptly to user input, making it an excellent choice for users who value speed and efficiency.</description>
     </item>
     
   </channel>
