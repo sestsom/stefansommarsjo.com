@@ -22,6 +22,7 @@ draft = false
 +++
 XFCE desktop environment requires fewer system resources, making it ideal for running on older hardware or low-powered machines.
 It runs smoothly on systems with as little as 512MB of RAM, making it an excellent option for lightweight laptops, netbooks, and desktops.
+![Alt text](/img/lxfce.jpg "Kali purple with Xfce")
 {{< gallery >}}
   {{< figure src="/img/lxfce.jpg" caption="Linux and xfce" >}}
 {{< /gallery >}}
