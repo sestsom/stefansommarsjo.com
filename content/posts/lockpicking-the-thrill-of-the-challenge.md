@@ -7,6 +7,7 @@ thumbnail = "/img/lxfce.jpg"
 twitter_creator = "@sestsom"
 images = "/img/post-lockpicking.jpeg"
 summary_large_image = "/img/post-lockpicking.jpeg"
+bigimg = [{src = "/img/triangle.jpg", desc = "Triangle"}]
 tags = [
     "Lockpicking",
 ]
