@@ -239,7 +239,7 @@ figure:not(.dark) img, img.white {
     padding: 0;
   }
 }
-
+/* LE BEEF */
 .navbar-custom .avatar-container {
   opacity: 1;
   visibility: visible;
@@ -249,7 +249,7 @@ figure:not(.dark) img, img.white {
   transition: visibility 0.5s, opacity 0.5s ease-in-out;
   left: 50%;
   width: 50px;
-  margin-top: -25px;
+  margin-top: 0px;
 }
 .navbar-custom .avatar-container  .avatar-img-border {
   width: 100%;
