@@ -239,7 +239,7 @@ figure:not(.dark) img, img.white {
     padding: 0;
   }
 }
-
+/* LE BEEF */
 .navbar-custom .avatar-container {
   opacity: 1;
   visibility: visible;
@@ -249,7 +249,7 @@ figure:not(.dark) img, img.white {
   transition: visibility 0.5s, opacity 0.5s ease-in-out;
   left: 50%;
   width: 50px;
-  margin-top: -25px;
+  margin-top: -25px !important;
 }
 .navbar-custom .avatar-container  .avatar-img-border {
   width: 100%;
@@ -658,7 +658,7 @@ footer .theme-by {
   .intro-header .page-heading h1,
   .intro-header .tags-heading h1,
   .intro-header .categories-heading h1 {
-    font-size: 60px;
+    font-size: 61px;
   }
   .intro-header .post-heading h1 {
     font-size: 50px;
