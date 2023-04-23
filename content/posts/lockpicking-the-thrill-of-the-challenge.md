@@ -18,7 +18,7 @@ series = ["Lockpicking"]
 aliases = ["the-thrill-of-the-challenge-why-i-enjoy-lockpicking"]
 draft = false
 +++
-Lock picking is often associated with negative connotations, such as breaking and entering. However, for those who practice it as a hobby, it can be an incredibly rewarding and satisfying experience. I will share why I enjoy lock picking and how it has become a challenging yet fulfilling pursuit.
+**Lock picking** is often associated with negative connotations, such as breaking and entering. However, for those who practice it as a hobby, it can be an incredibly rewarding and satisfying experience. I will share why I enjoy lock picking and how it has become a challenging yet fulfilling pursuit.
 <!--more-->
 ### The Challenge:
 Lock picking is not easy, and that is part of what makes it so enjoyable. Each lock presents a unique challenge, and the satisfaction of finally picking it open after many attempts is indescribable. It requires patience, precision, and a keen sense of touch to manipulate the lock's components and find the right combination to unlock it.
