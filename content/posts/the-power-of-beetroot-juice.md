@@ -22,6 +22,7 @@ draft = false
 Beetroot juice has been gaining popularity in recent years due to its numerous health benefits. 
 This deep red juice is packed with essential vitamins, minerals, and antioxidants that are beneficial 
 to our overall health. I take two deciliters a day and can really feel the difference. 
+
 ![Alt text](/img/post-beetrootjuice.jpg "Beetroot juice")
 <!--more-->
 
