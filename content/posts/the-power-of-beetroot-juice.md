@@ -4,8 +4,7 @@ title = "The power of beetroot juice"
 date = "2023-04-23"
 description = "Seven benefits"
 thumbnail = "/img/post-beetrootjuice.jpg"
-twitter_creator = "@sestsom"
-images = "/img/post-beetrootjuice.jpg"
+images = ["/img/post-beetrootjuice.jpg"]
 summary_large_image = "/img/post-beetrootjuice.jpg"
 
 tags = [
