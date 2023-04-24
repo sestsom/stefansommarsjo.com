@@ -5,7 +5,7 @@ date = "2023-02-15"
 description = "Easy steps how to add Twitter card in Hugo"
 thumbnail = ""
 twitter_creator = "@sestsom"
-images = "/img/twitter/twitter.jpg"
+images = ["/img/twitter/twitter.jpg"]
 summary_large_image = "/img/twitter/twitter.jpg"
 tags = [
     "Hugo",
