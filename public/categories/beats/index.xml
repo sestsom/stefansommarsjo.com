@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Beats on Das Blog</title>
+    <link>https://www.stefansommarsjo.com/categories/beats/</link>
+    <description>Recent content in Beats on Das Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.stefansommarsjo.com/categories/beats/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Umpf Inc.: Can not go</title>
+      <link>https://www.stefansommarsjo.com/posts/umpf-inc-can-not-go/</link>
+      <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.stefansommarsjo.com/posts/umpf-inc-can-not-go/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://www.stefansommarsjo.com/img/post-cannotgo.jpg&#34; alt=&#34;Alt text&#34; title=&#34;Umpf Inc. Can not go&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://soundcloud.com/umpf-inc&#34;&gt;https://soundcloud.com/umpf-inc&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
