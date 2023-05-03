@@ -6,7 +6,22 @@
     <description>Recent content in Posts on Das Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.stefansommarsjo.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 03 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.stefansommarsjo.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Distro hopping and Pipewire annoyances</title>
+      <link>https://www.stefansommarsjo.com/posts/distro-hopping-and-pipewire-annoyances/</link>
+      <pubDate>Wed, 03 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.stefansommarsjo.com/posts/distro-hopping-and-pipewire-annoyances/</guid>
+      <description>&lt;h3 id=&#34;distro-hopping&#34;&gt;Distro hopping.&lt;/h3&gt;
+&lt;p&gt;First off. I&amp;rsquo;ve switched to Fedora 38 now, lets see how long it will last. I wouldn&amp;rsquo;t be surprised if I&amp;rsquo;m back to Debian or Kali in a really near future :-).&lt;/p&gt;
+&lt;h3 id=&#34;pipewire-annoyances&#34;&gt;Pipewire annoyances.&lt;/h3&gt;
+&lt;p&gt;For as long as I can remember I&amp;rsquo;ve always had this issues with the sound on Linux. Random &amp;ldquo;popping&amp;rdquo; in the speakers.
+Since I most of the time use a Bluetooth headset I&amp;rsquo;ve ignored the problem.
+Had no better to do for a while so I spent some time looking it up and finally found a solution that work.&lt;/p&gt;
+&lt;p&gt;Copy existing alsa config script so we can finger it a little bit.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Umpf Inc.: Can not go</title>
       <link>https://www.stefansommarsjo.com/posts/umpf-inc-can-not-go/</link>
