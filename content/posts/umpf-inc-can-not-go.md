@@ -16,7 +16,7 @@ categories = [
 ]
 series = ["Beats"]
 aliases = ["umpf-inc-can-not-go"]
-draft = false
+draft = true
 +++
 ![Alt text](/img/post-cannotgo.jpg "Umpf Inc. Can not go")
 
