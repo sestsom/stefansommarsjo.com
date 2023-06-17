@@ -441,6 +441,7 @@ footer .theme-by {
   font-size: 30px;
   margin-top: 0;
   color: #000000 !important;
+  word-break: break-word;
 }
 .post-preview .post-subtitle {
   margin: 0;
@@ -500,6 +501,7 @@ footer .theme-by {
   .post-preview .post-title {
     font-size: 40px;
     color: #000000 !important;
+	word-break: break-word;
   }
 }
 
