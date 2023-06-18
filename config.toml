@@ -14,7 +14,7 @@ googleAnalytics = "G-7ML9J0RG11"
 
 [Params]
   homeTitle = "Stefan Sommarsjö" # Set a different text for the header on the home page
-  subtitle = "Explore. Create. Inspire."
+  subtitle = "Take The Road Less Traveled"
   mainSections = ["post","posts"]
   logo = "img/stefansommarsjo.png" # Expecting square dimensions
   favicon = "img/favicon.ico"
