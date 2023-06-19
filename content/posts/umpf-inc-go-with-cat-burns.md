@@ -1,7 +1,7 @@
 +++
 author = "Stefan Sommarsjö"
 title = "Umpf Inc. go with Cat Burns"
-date = "2023-05-03"
+date = "2023-06-19"
 description = "Umpf Inc. Meet Cat Burns"
 tags = [
     "Music",
