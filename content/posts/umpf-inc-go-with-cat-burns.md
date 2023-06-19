@@ -14,8 +14,6 @@ series = ["Music"]
 aliases = ["umpf-inc-go-with-cat-burns"]
 draft = false
 +++
-
-### Cat Burns - Go.
 It happens that I fire up FL-Studio and start abusing the keyboard.
 Go, but in the Drum and Bass version is one of my favorite songs. I wanted mess around with it and see what happened.
 
@@ -23,8 +21,9 @@ After a few minutes in to the song I got bored, that's why it just a couple of m
 
 Maybe I'll continue later some day...
 <!--more-->
+{{< soundcloud 1530525322 >}}
 
-{{< soundcloud 1184942131 >}}
+
 
 
 
