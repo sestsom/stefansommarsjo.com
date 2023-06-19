@@ -21,6 +21,8 @@ After a few minutes in to the song I got bored, that's why it just a couple of m
 
 Maybe I'll continue later some day...
 <!--more-->
+Embedding not working right now :-(
+
 https://on.soundcloud.com/9SkPd
 
 
