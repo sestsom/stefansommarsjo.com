@@ -17,15 +17,12 @@ draft = false
 It happens that I fire up FL-Studio and start abusing the keyboard.
 Go, but in the Drum and Bass version is one of my favorite songs. I wanted mess around with it and see what happened.
 
-After a few minutes in to the song I got bored, that's why it just a couple of minutes long.
-
-Maybe I'll continue some day...
+After a few minutes in to the song I got bored, that's why it just a couple of minutes long. Maybe I'll continue with it some day...
 <!--more-->
-Embedding not working right now :-(
-
+Embedding not working right now for some unknown reason :-(
 https://on.soundcloud.com/m4a3w
 
-
+The "original" https://youtu.be/i0d-2K2feks
 
 
 
