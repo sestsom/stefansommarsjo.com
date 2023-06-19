@@ -1,6 +1,6 @@
 +++
 author = "Stefan Sommarsjö"
-title = "Umpf Inc. go with Cat Burns"
+title = "Cat Burns - Go Umpf Inc."
 date = "2023-06-19"
 description = "Umpf Inc. Meet Cat Burns"
 tags = [
@@ -11,7 +11,7 @@ categories = [
     "Music",
 ]
 series = ["Music"]
-aliases = ["umpf-inc-go-with-cat-burns"]
+aliases = ["cat-burns-go-umpf-inc"]
 draft = false
 +++
 It happens that I fire up FL-Studio and start abusing the keyboard.
