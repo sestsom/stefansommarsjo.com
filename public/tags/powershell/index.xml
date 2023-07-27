@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PowerShell on Das Blog</title>
+    <link>https://www.stefansommarsjo.com/tags/powershell/</link>
+    <description>Recent content in PowerShell on Das Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 27 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.stefansommarsjo.com/tags/powershell/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PowerShell script to monitor CPU usage</title>
+      <link>https://www.stefansommarsjo.com/posts/script-to-monitor-cpu-usage/</link>
+      <pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.stefansommarsjo.com/posts/script-to-monitor-cpu-usage/</guid>
+      <description>&lt;h3 id=&#34;sons-game-freezes&#34;&gt;Sons game freezes.&lt;/h3&gt;
+&lt;p&gt;Son complains about Fortnite and Valorant occasionally freezes during gaming and it causes some rage :-).&lt;/p&gt;
+&lt;p&gt;I suspect  the culprit lies in the CPU usage of certain processes running in the background.&lt;/p&gt;
+&lt;h3 id=&#34;hello-powershell&#34;&gt;Hello PowerShell.&lt;/h3&gt;
+&lt;p&gt;The script designed to monitor the CPU usage of all active processes on your PC. The script will only report
+processes that consume CPU usage beyond a certain threshold. If you can identify processes that use too much
+CPU, you can shut them down or manage them appropriately to prevent your PC from freezing during gaming.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
