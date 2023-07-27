@@ -73,7 +73,7 @@ while ($true) {
     Start-Sleep -Seconds 2
 }
 ``` 
-Just start the script and let it run in the background.
+Start the script and just let it run in the background.
 Example:
 ![Example CPU usage](/img/random/cpu-usage.jpg "Example CPU usage")
 
