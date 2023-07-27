@@ -3,6 +3,9 @@ author = "Stefan Sommarsjö"
 title = "PowerShell script to monitor CPU usage"
 date = "2023-07-27"
 description = "PowerShell script to monitor CPU usage"
+images = "/img/random/cpu-usage.jpg"
+summary_large_image = "/img/random/cpu-usage.jpg"
+twitter_creator = "@sestsom"
 tags = [
     "PowerShell",
 	"Developing",
@@ -71,6 +74,8 @@ while ($true) {
 }
 ``` 
 Just start the script and let it run in the background.
+
+![Example CPU usage](/img/random/cpu-usage.jpg "Example CPU usage")
 
 
 ### "This script suck!".
