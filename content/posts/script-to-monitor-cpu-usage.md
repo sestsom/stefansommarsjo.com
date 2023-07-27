@@ -11,8 +11,8 @@ categories = [
     "Developing",
 ]
 series = ["Developing"]
-aliases = ["PowerShell-script-to-monitor-cpu-usage"]
-draft = true
+aliases = ["powershell-script-to-monitor-cpu-usage"]
+draft = false
 +++
 
 ### Sons game freezes.
