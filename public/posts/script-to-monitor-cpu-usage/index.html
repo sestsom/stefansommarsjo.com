@@ -70,7 +70,7 @@
   "headline": "PowerShell script to monitor CPU usage",
   "description" : "PowerShell script to monitor CPU usage",
   "inLanguage" : "en",
-  "wordCount":  293 ,
+  "wordCount":  450 ,
   "datePublished" : "2023-07-27T00:00:00",
   "dateModified" : "2023-07-27T00:00:00",
   "image" : "https:\/\/www.stefansommarsjo.com\/img\/stefansommarsjo.png",
@@ -282,31 +282,58 @@ if (!doNotTrack) {
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
         <h3 id="sons-game-freezes">Sons game freezes.</h3>
-<p>Son complains about Fortnite and Valorant occasionally freezes during gaming and it causes some rage :-).</p>
-<p>I suspect  the culprit lies in the CPU usage of certain processes running in the background.</p>
+<p>Son complains about Fortnite and Valorant occasionally freezing during gaming and it causes some rage :-).</p>
+<p>I suspect the culprit lies in the CPU usage of certain processes running in the background.</p>
 <h3 id="hello-powershell">Hello PowerShell.</h3>
-<p>The script designed to monitor the CPU usage of all active processes on your PC. The script will only report
-processes that consume CPU usage beyond a certain threshold. If you can identify processes that use too much
+<p>The script is designed to monitor the CPU usage of all active processes on your PC. The script will only report
+processes that consume CPU usage beyond a certain threshold (50%). If you can identify processes that use too much
 CPU, you can shut them down or manage them appropriately to prevent your PC from freezing during gaming.</p>
-<h2 id="execution-policy">Execution policy.</h2>
-<p>Firstly, PowerShell has a feature called &ldquo;execution policy&rdquo;, which controls the conditions under which PowerShell loads configuration files and runs scripts. If you get an error &ldquo;..running scripts is disabled&rdquo;, That error message means that your current execution policy doesn&rsquo;t allow running the script.</p>
+<h3 id="execution-policy">Execution policy.</h3>
+<p>Firstly, PowerShell has a feature called &ldquo;<strong>execution policy</strong>&rdquo;, which controls the conditions under which PowerShell loads configuration files and runs scripts. If you get an error &ldquo;..running scripts is disabled&rdquo;, That error message means that your current execution policy doesn&rsquo;t allow running the script.</p>
 <p>To solve this issue, you can change the execution policy. Here are the steps:</p>
 <ol>
 <li>
 <p>Open PowerShell as an administrator. You can do this by searching for PowerShell in the start menu, right-clicking on it, and selecting &ldquo;Run as administrator&rdquo;.</p>
 </li>
 <li>
-<p>Check the current execution policy by typing</p>
+<p>Check the current execution policy by typing <code>Get-ExecutionPolicy</code>.</p>
+</li>
+<li>
+<p>If the policy is not set to RemoteSigned or Unrestricted, you can change the execution policy by typing <code>Set-ExecutionPolicy RemoteSigned</code>. This policy allows local scripts to run without a digital signature, but downloaded scripts must be signed by a trusted publisher.</p>
 </li>
 </ol>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-PowerShell" data-lang="PowerShell"><span class="line"><span class="cl"><span class="nb">Get-ExecutionPolicy</span>
-</span></span></code></pre></div><ol start="3">
-<li>If the policy is not set to RemoteSigned or Unrestricted, you can change the execution policy by typing <code>Set-ExecutionPolicy RemoteSigned</code>. This policy allows local scripts to run without a digital signature, but downloaded scripts must be signed by a trusted publisher.</li>
-</ol>
 <p>You&rsquo;ll see a prompt asking to confirm the change, to which you can reply <strong>Y for Yes</strong> or A for Yes to All.</p>
-<p>Keep in mind that these steps change the execution policy for all PowerShell sessions. If you want to change the execution policy for only the current session, you can do so by adding -Scope Process to the command:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-PowerShell" data-lang="PowerShell"><span class="line"><span class="cl"><span class="nb">Set-ExecutionPolicy</span> <span class="n">-ExecutionPolicy</span> <span class="n">RemoteSigned</span> <span class="n">-Scope</span> <span class="k">Process</span>
-</span></span></code></pre></div>
+<p>Keep in mind that these steps change the execution policy for all PowerShell sessions. If you want to change the execution policy for only the current session, you can do so by adding <strong>-Scope Process</strong> to the command:
+<code>Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process</code>.</p>
+<h3 id="the-script">The script.</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-PowerShell" data-lang="PowerShell"><span class="line"><span class="cl"><span class="c"># Specify the CPU threshold.</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$cpuThreshold</span> <span class="p">=</span> <span class="mf">50</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c"># Loop it.</span>
+</span></span><span class="line"><span class="cl"><span class="k">while</span> <span class="p">(</span><span class="vm">$true</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="c"># Get running processes and their CPU usage. Ignore Idle process.</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$processes</span> <span class="p">=</span> <span class="nb">Get-WmiObject</span> <span class="n">-Query</span> <span class="p">`</span>
+</span></span><span class="line"><span class="cl">      <span class="s2">&#34;SELECT IDProcess, Name, PercentProcessorTime FROM Win32_PerfFormattedData_PerfProc_Process WHERE NOT Name=&#39;_Total&#39; AND NOT Name=&#39;Idle&#39;&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c"># For each</span>
+</span></span><span class="line"><span class="cl">    <span class="k">foreach</span> <span class="p">(</span><span class="nv">$process</span> <span class="k">in</span> <span class="nv">$processes</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="c"># Calculate CPU usage for process</span>
+</span></span><span class="line"><span class="cl">        <span class="nv">$cpuUsage</span> <span class="p">=</span> <span class="nv">$process</span><span class="p">.</span><span class="py">PercentProcessorTime</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="c"># If CPU usage exceeds threshold, output information about the process.</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="nv">$cpuUsage</span> <span class="o">-gt</span> <span class="nv">$cpuThreshold</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="nb">Write-Output</span> <span class="p">(</span><span class="s2">&#34;Process ID: {0}, Process Name: {1}, CPU Usage: {2}%&#34;</span> <span class="o">-f</span> <span class="nv">$process</span><span class="p">.</span><span class="n">IDProcess</span><span class="p">,</span> <span class="nv">$process</span><span class="p">.</span><span class="n">Name</span><span class="p">,</span> <span class="nv">$cpuUsage</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c"># Get some sleep before next update.</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">Start-Sleep</span> <span class="n">-Seconds</span> <span class="mf">2</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>Just start the script and let it run in the background.</p>
+<h3 id="this-script-suck">&ldquo;This script suck!&rdquo;.</h3>
+<p>I&rsquo;m sure there exist hundreds of applications/scripts doing this better, but out of the box stuff wouldn&rsquo;t let me learn anything and have fun while doing it.</p>
+<h3 id="github">Github.</h3>
+<p>Script is also available in my Powershell_Scripts repo. <a href="https://github.com/sestsom/Powershell_Scripts">https://github.com/sestsom/Powershell_Scripts</a>.</p>
 
         
           <div class="blog-tags">

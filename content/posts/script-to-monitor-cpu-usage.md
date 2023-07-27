@@ -43,12 +43,12 @@ Keep in mind that these steps change the execution policy for all PowerShell ses
 
 ### The script.
 ```PowerShell
-# Specify the CPU threshold
+# Specify the CPU threshold.
 $cpuThreshold = 50
 
-# Loop it
+# Loop it.
 while ($true) {
-    # Get running processes and their CPU usage
+    # Get running processes and their CPU usage. Ignore Idle process.
     $processes = Get-WmiObject -Query `
       "SELECT IDProcess, Name, PercentProcessorTime FROM Win32_PerfFormattedData_PerfProc_Process WHERE NOT Name='_Total' AND NOT Name='Idle'"
 
@@ -57,18 +57,22 @@ while ($true) {
         # Calculate CPU usage for process
         $cpuUsage = $process.PercentProcessorTime
 
-        # If CPU usage exceeds threshold, output information about the process
+        # If CPU usage exceeds threshold, output information about the process.
         if ($cpuUsage -gt $cpuThreshold) {
             Write-Output ("Process ID: {0}, Process Name: {1}, CPU Usage: {2}%" -f $process.IDProcess, $process.Name, $cpuUsage)
         }
     }
 
-    # Get some sleep before next update
+    # Get some sleep before next update.
     Start-Sleep -Seconds 2
 }
 ``` 
-Just start the script and let it run in the background...
+Just start the script and let it run in the background.
 
+### "This script suck!".
+I'm sure there exist hundreds of applications/scripts doing this better, but out of the box stuff wouldn't let me learn anything and have fun while doing it.
+
+### Github.
 Script is also available in my Powershell_Scripts repo. [https://github.com/sestsom/Powershell_Scripts](https://github.com/sestsom/Powershell_Scripts).
 
  
