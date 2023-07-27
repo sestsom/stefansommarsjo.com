@@ -74,7 +74,7 @@ while ($true) {
 }
 ``` 
 Just start the script and let it run in the background.
-
+Example:
 ![Example CPU usage](/img/random/cpu-usage.jpg "Example CPU usage")
 
 
