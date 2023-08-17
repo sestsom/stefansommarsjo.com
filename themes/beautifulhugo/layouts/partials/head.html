@@ -54,7 +54,7 @@
 {{- end }}
 {{- partial "seo/main.html" . }} 
 
-{{ template "seo/twitter.html" . }}
+{{ template "_internal/twitter_cards.html" . }}
  
 {{- with .Site.Params.favicon }}
   <link href='{{ . | absURL }}' rel='icon' type='image/x-icon'/>
