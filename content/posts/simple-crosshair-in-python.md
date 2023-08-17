@@ -5,7 +5,7 @@ date = "2023-02-04"
 description = "Code for crosshair in python"
 thumbnail = ""
 twitter_creator = "@sestsom"
-images = ["/img/random/pythoncross.jpg"]
+images: ["/img/random/pythoncross.jpg"]
 summary_large_image = "/img/random/pythoncross.jpg"
 tags = [
     "Python",
