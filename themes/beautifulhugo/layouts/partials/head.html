@@ -52,7 +52,10 @@
 {{- with .Site.Author.name }}
   <meta name="author" content="{{ . }}"/>
 {{- end }}
-{{- partial "seo/main.html" . }}  
+{{- partial "seo/main.html" . }} 
+
+{{ template "seo/twitter.html" . }}
+ 
 {{- with .Site.Params.favicon }}
   <link href='{{ . | absURL }}' rel='icon' type='image/x-icon'/>
 {{- end -}}
