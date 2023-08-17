@@ -5,6 +5,7 @@ date = "2023-07-27"
 description = "PowerShell script to monitor CPU usage"
 images = ["/img/random/cpu-usage.jpg"]
 summary_large_image = "/img/random/cpu-usage.jpg"
+thumbnail = "/img/random/pythoncross.jpg"
 twitter_creator = "@sestsom"
 tags = [
     "PowerShell",
