@@ -20,7 +20,7 @@ draft = false
 +++
 
 ### Living The Dream.
-Fired up the DAW and started a new project feeling inspired. Problem is that I get easily bored :-).
+Fired up the DAW and started a new project feeling inspired. Problem is that I get easily bored.
 
 
 
