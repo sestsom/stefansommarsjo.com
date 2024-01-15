@@ -23,7 +23,7 @@ For as long as I can remember I've always had this issues with the sound on Linu
 Since I most of the time use a Bluetooth headset I've ignored the problem.
 Had no better to do for a while so I spent some time looking it up and finally found a solution that work.
 
-Copy existing alsa config script so we can finger it a little bit.
+Copy existing alsa config script so we can finger it a little bit...
 <!--more-->
 
 ```bash
