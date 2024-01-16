@@ -438,7 +438,7 @@ footer .theme-by {
 }
 
 .post-preview .post-title {
-  font-size: 26px;
+  font-size: 27px;
   margin-top: 0;
   color: #000000 !important;
   word-break: break-word;
@@ -456,6 +456,7 @@ footer .theme-by {
   /*font-style: italic;*/
   margin: 0 0 10px;
   opacity: 0.8;
+  word-spacing: -1px;
 }
 .page-meta {
   align-self: center;
