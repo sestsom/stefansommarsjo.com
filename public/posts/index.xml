@@ -28,10 +28,10 @@ CPU, you can shut them down or manage them appropriately to prevent your PC from
       <pubDate>Wed, 03 May 2023 00:00:00 +0000</pubDate>
       
       <guid>https://www.stefansommarsjo.com/posts/distro-hopping-and-pipewire-annoyances/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Distro hopping&lt;/strong&gt;.&lt;br&gt;
-First off. I&amp;rsquo;ve switched to Fedora 38 now, lets see how long it will last. I wouldn&amp;rsquo;t be surprised if I&amp;rsquo;m back to Debian or Kali in a really near future :-).&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Pipewire annoyances&lt;/strong&gt;.&lt;br&gt;
-For as long as I can remember I&amp;rsquo;ve always had this issues with the sound on Linux. Random &amp;ldquo;popping&amp;rdquo; in the speakers.
+      <description>&lt;h5 id=&#34;distro-hopping&#34;&gt;Distro hopping.&lt;/h5&gt;
+&lt;p&gt;First off. I&amp;rsquo;ve switched to Fedora 38 now, lets see how long it will last. I wouldn&amp;rsquo;t be surprised if I&amp;rsquo;m back to Debian or Kali in a really near future :-).&lt;/p&gt;
+&lt;h5 id=&#34;pipewire-annoyances&#34;&gt;Pipewire annoyances.&lt;/h5&gt;
+&lt;p&gt;For as long as I can remember I&amp;rsquo;ve always had this issues with the sound on Linux. Random &amp;ldquo;popping&amp;rdquo; in the speakers.
 Since I most of the time use a Bluetooth headset I&amp;rsquo;ve ignored the problem.
 Had no better to do for a while so I spent some time looking it up and finally found a solution that work.&lt;/p&gt;
 &lt;p&gt;Copy existing alsa config script so we can finger it a little bit&amp;hellip;&lt;/p&gt;</description>
@@ -43,7 +43,7 @@ Had no better to do for a while so I spent some time looking it up and finally f
       <pubDate>Sun, 23 Apr 2023 00:00:00 +0000</pubDate>
       
       <guid>https://www.stefansommarsjo.com/posts/the-power-of-beetroot-juice/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Beetroot juice&lt;/strong&gt; has been gaining popularity in recent years due to its numerous health benefits.
+      <description>&lt;p&gt;Beetroot juice has been gaining popularity in recent years due to its numerous health benefits.
 This deep red juice is packed with essential vitamins, minerals, and antioxidants that are beneficial
 to our overall health. I take two deciliters a day and can really feel the difference.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://www.stefansommarsjo.com/img/post-beetrootjuice.jpg&#34; alt=&#34;Alt text&#34; title=&#34;Beetroot juice&#34;&gt;&lt;/p&gt;</description>
@@ -55,7 +55,7 @@ to our overall health. I take two deciliters a day and can really feel the diffe
       <pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate>
       
       <guid>https://www.stefansommarsjo.com/posts/lockpicking-the-thrill-of-the-challenge/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Lock picking&lt;/strong&gt; is often associated with negative connotations, such as breaking and entering. However, for those who practice it as a hobby, it can be an incredibly rewarding and satisfying experience. I will share why I enjoy lock picking and how it has become a challenging yet fulfilling pursuit.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Lock picking is often associated with negative connotations, such as breaking and entering. However, for those who practice it as a hobby, it can be an incredibly rewarding and satisfying experience. I will share why I enjoy lock picking and how it has become a challenging yet fulfilling pursuit.&lt;/p&gt;</description>
     </item>
     
     <item>

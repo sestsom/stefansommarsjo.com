@@ -13,10 +13,10 @@
       <pubDate>Wed, 03 May 2023 00:00:00 +0000</pubDate>
       
       <guid>https://www.stefansommarsjo.com/posts/distro-hopping-and-pipewire-annoyances/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Distro hopping&lt;/strong&gt;.&lt;br&gt;
-First off. I&amp;rsquo;ve switched to Fedora 38 now, lets see how long it will last. I wouldn&amp;rsquo;t be surprised if I&amp;rsquo;m back to Debian or Kali in a really near future :-).&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Pipewire annoyances&lt;/strong&gt;.&lt;br&gt;
-For as long as I can remember I&amp;rsquo;ve always had this issues with the sound on Linux. Random &amp;ldquo;popping&amp;rdquo; in the speakers.
+      <description>&lt;h5 id=&#34;distro-hopping&#34;&gt;Distro hopping.&lt;/h5&gt;
+&lt;p&gt;First off. I&amp;rsquo;ve switched to Fedora 38 now, lets see how long it will last. I wouldn&amp;rsquo;t be surprised if I&amp;rsquo;m back to Debian or Kali in a really near future :-).&lt;/p&gt;
+&lt;h5 id=&#34;pipewire-annoyances&#34;&gt;Pipewire annoyances.&lt;/h5&gt;
+&lt;p&gt;For as long as I can remember I&amp;rsquo;ve always had this issues with the sound on Linux. Random &amp;ldquo;popping&amp;rdquo; in the speakers.
 Since I most of the time use a Bluetooth headset I&amp;rsquo;ve ignored the problem.
 Had no better to do for a while so I spent some time looking it up and finally found a solution that work.&lt;/p&gt;
 &lt;p&gt;Copy existing alsa config script so we can finger it a little bit&amp;hellip;&lt;/p&gt;</description>

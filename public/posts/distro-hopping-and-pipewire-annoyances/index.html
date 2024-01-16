@@ -288,10 +288,10 @@ if (!doNotTrack) {
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
-        <p><strong>Distro hopping</strong>.<br>
-First off. I&rsquo;ve switched to Fedora 38 now, lets see how long it will last. I wouldn&rsquo;t be surprised if I&rsquo;m back to Debian or Kali in a really near future :-).</p>
-<p><strong>Pipewire annoyances</strong>.<br>
-For as long as I can remember I&rsquo;ve always had this issues with the sound on Linux. Random &ldquo;popping&rdquo; in the speakers.
+        <h5 id="distro-hopping">Distro hopping.</h5>
+<p>First off. I&rsquo;ve switched to Fedora 38 now, lets see how long it will last. I wouldn&rsquo;t be surprised if I&rsquo;m back to Debian or Kali in a really near future :-).</p>
+<h5 id="pipewire-annoyances">Pipewire annoyances.</h5>
+<p>For as long as I can remember I&rsquo;ve always had this issues with the sound on Linux. Random &ldquo;popping&rdquo; in the speakers.
 Since I most of the time use a Bluetooth headset I&rsquo;ve ignored the problem.
 Had no better to do for a while so I spent some time looking it up and finally found a solution that work.</p>
 <p>Copy existing alsa config script so we can finger it a little bit&hellip;</p>
@@ -299,7 +299,7 @@ Had no better to do for a while so I spent some time looking it up and finally f
 </span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo vi /etc/wireplumber/main.lua.d/50-alsa-config.lua
 </span></span></code></pre></div><p>Locate this row and replace 5 with a 0 for disabling suspend on idle. By default it&rsquo;s commented out so remove the <strong>&ndash;</strong>.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-lua" data-lang="lua"><span class="line"><span class="cl"><span class="c1">--[&#34;session.suspend-timeout-seconds&#34;] = 5,  -- 0 disables suspend</span>
-</span></span></code></pre></div><p>Restart your computer and Voila, problem solved.</p>
+</span></span></code></pre></div><p><strong>Restart your computer</strong> and Voila, problem solved.</p>
 
         
           <div class="blog-tags">
