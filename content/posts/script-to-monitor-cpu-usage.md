@@ -19,13 +19,13 @@ aliases = ["powershell-script-to-monitor-cpu-usage"]
 draft = false
 +++
 
-Sons game freezes.  
+##### Sons game freezes.
 Son complains about Fortnite and Valorant occasionally freezing during gaming and it causes some rage :-).
 
 I suspect the culprit lies in the CPU usage of certain processes running in the background.
 
 
-#### Hello PowerShell.
+##### Hello PowerShell.
 The script is designed to monitor the CPU usage of all active processes on your PC. The script will only report 
 processes that consume CPU usage beyond a certain threshold (50%). If you can identify processes that use too much 
 CPU, you can shut them down or manage them appropriately to prevent your PC from freezing during gaming.
