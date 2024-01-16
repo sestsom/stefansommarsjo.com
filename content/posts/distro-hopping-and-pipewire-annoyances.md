@@ -15,7 +15,7 @@ aliases = ["distro-hopping-and-pipewire-annoyances"]
 draft = false
 +++
 
-##### Distro hopping.  
+#### Distro hopping.  
 First off. I've switched to Fedora 38 now, lets see how long it will last. I wouldn't be surprised if I'm back to Debian or Kali in a really near future :-).
 
 ##### Pipewire annoyances.
