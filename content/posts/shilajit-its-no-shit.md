@@ -1,6 +1,6 @@
 +++
 author = "Stefan Sommarsjö"
-title = "Shilajit, it's no shit"
+title = "Shilajit. It's no shit"
 date = "2023-01-31"
 description = "Shilajit is an ancient Ayurvedic remedy that has been used for centuries to treat a variety of ailments"
 tags = [
