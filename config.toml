@@ -29,7 +29,7 @@ googleAnalytics = "G-7ML9J0RG11"
   delayDisqus = true
   showRelatedPosts = true
   twitter_cards = true
-#  hideAuthor = true
+  hideAuthor = true
   images = "/img/twitter.png"
 #  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
 
@@ -60,7 +60,7 @@ googleAnalytics = "G-7ML9J0RG11"
   github = "sestsom"
  # gitlab = "username"
  # bitbucket = "username"
-  twitter = "sestsom"
+  twitter = "TheSommarsjo"
  # reddit = "username"
   linkedin = "stefansommarsjo"
  # xing = "username"
