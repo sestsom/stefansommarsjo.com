@@ -288,14 +288,14 @@ if (!doNotTrack) {
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
-        <h5 id="sons-game-freezes">Sons game freezes.</h5>
+        <h4 id="sons-game-freezes">Sons game freezes.</h4>
 <p>Son complains about Fortnite and Valorant occasionally freezing during gaming and it causes some rage :-).</p>
 <p>I suspect the culprit lies in the CPU usage of certain processes running in the background.</p>
-<h5 id="hello-powershell">Hello PowerShell.</h5>
+<h4 id="hello-powershell">Hello PowerShell.</h4>
 <p>The script is designed to monitor the CPU usage of all active processes on your PC. The script will only report
 processes that consume CPU usage beyond a certain threshold (50%). If you can identify processes that use too much
 CPU, you can shut them down or manage them appropriately to prevent your PC from freezing during gaming.</p>
-<h3 id="execution-policy">Execution policy.</h3>
+<h4 id="execution-policy">Execution policy.</h4>
 <p>Firstly, PowerShell has a feature called &ldquo;<strong>execution policy</strong>&rdquo;, which controls the conditions under which PowerShell loads configuration files and runs scripts. If you get an error &ldquo;..running scripts is disabled&rdquo;, That error message means that your current execution policy doesn&rsquo;t allow running the script.</p>
 <p>To solve this issue, you can change the execution policy. Here are the steps:</p>
 <ol>
@@ -312,7 +312,7 @@ CPU, you can shut them down or manage them appropriately to prevent your PC from
 <p>You&rsquo;ll see a prompt asking to confirm the change, to which you can reply <strong>Y for Yes</strong> or A for Yes to All.</p>
 <p>Keep in mind that these steps change the execution policy for all PowerShell sessions. If you want to change the execution policy for only the current session, you can do so by adding <strong>-Scope Process</strong> to the command:
 <code>Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process</code>.</p>
-<h3 id="the-script">The script.</h3>
+<h4 id="the-script">The script.</h4>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-PowerShell" data-lang="PowerShell"><span class="line"><span class="cl"><span class="c"># Specify the CPU threshold.</span>
 </span></span><span class="line"><span class="cl"><span class="nv">$cpuThreshold</span> <span class="p">=</span> <span class="mf">50</span>
 </span></span><span class="line"><span class="cl">
@@ -339,9 +339,9 @@ CPU, you can shut them down or manage them appropriately to prevent your PC from
 </span></span></code></pre></div><p>Start the script and just let it run in the background.</p>
 <p>Example:
 <img src="/img/random/cpu-usage.jpg" alt="Example CPU usage" title="Example CPU usage"></p>
-<h3 id="this-script-suck">&ldquo;This script suck!&rdquo;.</h3>
+<h4 id="this-script-suck">&ldquo;This script suck!&rdquo;.</h4>
 <p>I&rsquo;m sure there exist hundreds of applications/scripts doing this better, but out of the box stuff wouldn&rsquo;t let me learn anything and have fun while doing it.</p>
-<h3 id="github">Github.</h3>
+<h4 id="github">Github.</h4>
 <p>Script is also available in my Powershell_Scripts repo. <a href="https://github.com/sestsom/Powershell_Scripts">https://github.com/sestsom/Powershell_Scripts</a>.</p>
 
         

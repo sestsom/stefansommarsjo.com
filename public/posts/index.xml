@@ -13,10 +13,10 @@
       <pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate>
       
       <guid>https://www.stefansommarsjo.com/posts/script-to-monitor-cpu-usage/</guid>
-      <description>&lt;h5 id=&#34;sons-game-freezes&#34;&gt;Sons game freezes.&lt;/h5&gt;
+      <description>&lt;h4 id=&#34;sons-game-freezes&#34;&gt;Sons game freezes.&lt;/h4&gt;
 &lt;p&gt;Son complains about Fortnite and Valorant occasionally freezing during gaming and it causes some rage :-).&lt;/p&gt;
 &lt;p&gt;I suspect the culprit lies in the CPU usage of certain processes running in the background.&lt;/p&gt;
-&lt;h5 id=&#34;hello-powershell&#34;&gt;Hello PowerShell.&lt;/h5&gt;
+&lt;h4 id=&#34;hello-powershell&#34;&gt;Hello PowerShell.&lt;/h4&gt;
 &lt;p&gt;The script is designed to monitor the CPU usage of all active processes on your PC. The script will only report
 processes that consume CPU usage beyond a certain threshold (50%). If you can identify processes that use too much
 CPU, you can shut them down or manage them appropriately to prevent your PC from freezing during gaming.&lt;/p&gt;</description>
@@ -30,7 +30,7 @@ CPU, you can shut them down or manage them appropriately to prevent your PC from
       <guid>https://www.stefansommarsjo.com/posts/distro-hopping-and-pipewire-annoyances/</guid>
       <description>&lt;h4 id=&#34;distro-hopping&#34;&gt;Distro hopping.&lt;/h4&gt;
 &lt;p&gt;First off. I&amp;rsquo;ve switched to Fedora 38 now, lets see how long it will last. I wouldn&amp;rsquo;t be surprised if I&amp;rsquo;m back to Debian or Kali in a really near future :-).&lt;/p&gt;
-&lt;h5 id=&#34;pipewire-annoyances&#34;&gt;Pipewire annoyances.&lt;/h5&gt;
+&lt;h4 id=&#34;pipewire-annoyances&#34;&gt;Pipewire annoyances.&lt;/h4&gt;
 &lt;p&gt;For as long as I can remember I&amp;rsquo;ve always had this issues with the sound on Linux. Random &amp;ldquo;popping&amp;rdquo; in the speakers.
 Since I most of the time use a Bluetooth headset I&amp;rsquo;ve ignored the problem.
 Had no better to do for a while so I spent some time looking it up and finally found a solution that work.&lt;/p&gt;

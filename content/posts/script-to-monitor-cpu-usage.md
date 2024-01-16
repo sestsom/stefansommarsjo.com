@@ -19,19 +19,19 @@ aliases = ["powershell-script-to-monitor-cpu-usage"]
 draft = false
 +++
 
-##### Sons game freezes.
+#### Sons game freezes.
 Son complains about Fortnite and Valorant occasionally freezing during gaming and it causes some rage :-).
 
 I suspect the culprit lies in the CPU usage of certain processes running in the background.
 
 
-##### Hello PowerShell.
+#### Hello PowerShell.
 The script is designed to monitor the CPU usage of all active processes on your PC. The script will only report 
 processes that consume CPU usage beyond a certain threshold (50%). If you can identify processes that use too much 
 CPU, you can shut them down or manage them appropriately to prevent your PC from freezing during gaming.
 <!--more-->
 
-### Execution policy.
+#### Execution policy.
 Firstly, PowerShell has a feature called "**execution policy**", which controls the conditions under which PowerShell loads configuration files and runs scripts. If you get an error "..running scripts is disabled", That error message means that your current execution policy doesn't allow running the script.
 
 To solve this issue, you can change the execution policy. Here are the steps:
@@ -48,7 +48,7 @@ Keep in mind that these steps change the execution policy for all PowerShell ses
 ```Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process```.
 
 
-### The script.
+#### The script.
 ```PowerShell
 # Specify the CPU threshold.
 $cpuThreshold = 50
@@ -80,11 +80,11 @@ Example:
 ![Example CPU usage](/img/random/cpu-usage.jpg "Example CPU usage")
 
 
-### "This script suck!".
+#### "This script suck!".
 I'm sure there exist hundreds of applications/scripts doing this better, but out of the box stuff wouldn't let me learn anything and have fun while doing it.
 
 
-### Github.
+#### Github.
 Script is also available in my Powershell_Scripts repo. [https://github.com/sestsom/Powershell_Scripts](https://github.com/sestsom/Powershell_Scripts).
 
  
