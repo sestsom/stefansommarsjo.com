@@ -21,9 +21,7 @@ draft = false
 
 #### Sons game freezes.
 Son complains about Fortnite and Valorant occasionally freezing during gaming and it causes some rage :-).
-
 I suspect the culprit lies in the CPU usage of certain processes running in the background.
-
 
 #### Hello PowerShell.
 The script is designed to monitor the CPU usage of all active processes on your PC. The script will only report 

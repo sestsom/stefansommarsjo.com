@@ -14,8 +14,8 @@
       
       <guid>https://www.stefansommarsjo.com/posts/script-to-monitor-cpu-usage/</guid>
       <description>&lt;h4 id=&#34;sons-game-freezes&#34;&gt;Sons game freezes.&lt;/h4&gt;
-&lt;p&gt;Son complains about Fortnite and Valorant occasionally freezing during gaming and it causes some rage :-).&lt;/p&gt;
-&lt;p&gt;I suspect the culprit lies in the CPU usage of certain processes running in the background.&lt;/p&gt;
+&lt;p&gt;Son complains about Fortnite and Valorant occasionally freezing during gaming and it causes some rage :-).
+I suspect the culprit lies in the CPU usage of certain processes running in the background.&lt;/p&gt;
 &lt;h4 id=&#34;hello-powershell&#34;&gt;Hello PowerShell.&lt;/h4&gt;
 &lt;p&gt;The script is designed to monitor the CPU usage of all active processes on your PC. The script will only report
 processes that consume CPU usage beyond a certain threshold (50%). If you can identify processes that use too much
