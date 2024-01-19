@@ -443,7 +443,7 @@ footer .theme-by {
   color: #000000 !important;
   word-break: break-word;
  /* text-align: center;*/
-word-spacing: -2px;
+word-spacing: -1px;
 
 }
 .post-preview .post-subtitle {
