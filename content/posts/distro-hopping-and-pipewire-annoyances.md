@@ -19,7 +19,7 @@ draft = false
 First off. I've switched to Fedora 38 now, lets see how long it will last. I wouldn't be surprised if I'm back to Debian or Kali in a really near future :-).
 
 #### Pipewire annoyances.
-For as long as I can remember I've always had this issues with the sound on Linux. Random "popping" <!--more-->in the speakers.
+For as long as I can remember I've always had this issues with the sound on Linux. Random "popping" in the speakers.<!--more-->
 Since I most of the time use a Bluetooth headset I've ignored the problem.
 Had no better to do for a while so I spent some time looking it up and finally found a solution that work.
 

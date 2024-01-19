@@ -16,7 +16,9 @@
       <description>&lt;h4 id=&#34;sons-game-freezes&#34;&gt;Sons game freezes.&lt;/h4&gt;
 &lt;p&gt;Son complains about Fortnite and Valorant occasionally freezing during gaming and it causes some rage :-).
 I suspect the culprit lies in the CPU usage of certain processes running in the background.&lt;/p&gt;
-&lt;h4 id=&#34;hello-powershell&#34;&gt;Hello PowerShell.&lt;/h4&gt;</description>
+&lt;h4 id=&#34;hello-powershell&#34;&gt;Hello PowerShell.&lt;/h4&gt;
+&lt;p&gt;The script is designed to monitor the CPU usage of all active processes on your PC. The script will only report
+processes that consume CPU usage beyond a certain threshold (50%).&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -28,7 +30,7 @@ I suspect the culprit lies in the CPU usage of certain processes running in the 
       <description>&lt;h4 id=&#34;distro-hopping&#34;&gt;Distro hopping.&lt;/h4&gt;
 &lt;p&gt;First off. I&amp;rsquo;ve switched to Fedora 38 now, lets see how long it will last. I wouldn&amp;rsquo;t be surprised if I&amp;rsquo;m back to Debian or Kali in a really near future :-).&lt;/p&gt;
 &lt;h4 id=&#34;pipewire-annoyances&#34;&gt;Pipewire annoyances.&lt;/h4&gt;
-&lt;p&gt;For as long as I can remember I&amp;rsquo;ve always had this issues with the sound on Linux. Random &amp;ldquo;popping&amp;rdquo;&lt;/p&gt;</description>
+&lt;p&gt;For as long as I can remember I&amp;rsquo;ve always had this issues with the sound on Linux. Random &amp;ldquo;popping&amp;rdquo; in the speakers.&lt;/p&gt;</description>
     </item>
     
     <item>
