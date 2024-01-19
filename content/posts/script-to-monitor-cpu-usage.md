@@ -24,10 +24,11 @@ Son complains about Fortnite and Valorant occasionally freezing during gaming an
 I suspect the culprit lies in the CPU usage of certain processes running in the background.
 
 #### Hello PowerShell.
+<!--more-->
 The script is designed to monitor the CPU usage of all active processes on your PC. The script will only report 
 processes that consume CPU usage beyond a certain threshold (50%). If you can identify processes that use too much 
 CPU, you can shut them down or manage them appropriately to prevent your PC from freezing during gaming.
-<!--more-->
+
 
 #### Execution policy.
 Firstly, PowerShell has a feature called "**execution policy**", which controls the conditions under which PowerShell loads configuration files and runs scripts. If you get an error "..running scripts is disabled", That error message means that your current execution policy doesn't allow running the script.
