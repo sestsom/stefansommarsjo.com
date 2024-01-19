@@ -442,7 +442,7 @@ footer .theme-by {
   margin-top: 0;
   color: #000000 !important;
   word-break: break-word;
-  text-align: center;
+ /* text-align: center;*/
 }
 .post-preview .post-subtitle {
   margin: 0;
