@@ -21,9 +21,9 @@ draft = false
 Beetroot juice has been gaining popularity in recent years due to its numerous health benefits. 
 This deep red juice is packed with essential vitamins, minerals, and antioxidants that are beneficial 
 to our overall health. I take two deciliters a day and can really feel the difference. 
-
-![Alt text](/img/post-beetrootjuice.jpg "Beetroot juice")
 <!--more-->
+![Alt text](/img/post-beetrootjuice.jpg "Beetroot juice")
+
 
 #### Rich in Nutrients
 Beetroot juice is rich in essential vitamins and minerals such as vitamin C, vitamin B6, folate, iron, 
