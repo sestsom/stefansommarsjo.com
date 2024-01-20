@@ -24,7 +24,7 @@ Microsoft Word is one of the most used word processing tools worldwide.
 Word files are saved in the .docx file format, which is an open standard for storing documents.
 The .docx format uses XML, or Extensible Markup Language, to store text, images, and formatting information in a structured way.
 <!--more-->
-## File and Folder Structure
+#### File and Folder Structure
 A .docx file is a collection of files and folders that are zipped together into a single package. When you create a Word document and save it as a .docx file, Word creates a folder with several subfolders and files inside it. This folder is then zipped into a single file with the .docx extension.
 The folder structure inside a .docx file looks like this:
 * **docProps**: Contains XML files that store document properties, such as the title, author, and creation date.
@@ -36,12 +36,12 @@ The folder structure inside a .docx file looks like this:
 * **styles.xml**: Contains the styles used in the document, such as headings and paragraph styles.
 * **[Content_Types].xml**: Defines the types of content that are included in the document.
 
-## XML Schema
+#### XML Schema
 The XML schema used to create and store .docx files is known as the Open Packaging Conventions (OPC) XML schema. This schema defines the structure of the .docx file and the relationships between its various parts.
 The OPC schema uses a concept known as a package to represent a collection of related files and folders. A package is defined by an XML file called [Content_Types].xml, which lists the various content types that are included in the package. This allows different applications to understand the contents of the package and process it accordingly.
 Each part of the package is defined by an XML file, which contains the actual content of the part. For example, the document.xml file contains the main content of the document, while the styles.xml file contains the styles used in the document.
 
-## Common XML File Errors
+#### Common XML File Errors
 XML files can become corrupted due to a variety of reasons, such as hardware failure, software bugs, or user error. When an XML file becomes corrupt, it can cause the corresponding part of the .docx file to become unreadable, which can in turn cause the entire document to become corrupt and not easily recoverable.
 Some common XML file errors that can cause a .docx file to become corrupt include:
 
