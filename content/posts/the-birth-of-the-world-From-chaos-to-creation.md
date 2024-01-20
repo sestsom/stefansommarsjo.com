@@ -16,9 +16,9 @@ series = ["AI"]
 aliases = ["the-birth-of-the-world-from-chaos-to-creation"]
 draft = false
 +++
-{{< youtube hdYHcZWEhH8 >}}
+{{< youtube hdYHcZWEhH8 >}}<!--more-->
 
-The origin of the world has been a topic of fascination and speculation for thousands of years. Many cultures and religions have their own creation stories, each providing unique insights into the forces that brought the universe into being. <!--more-->
+The origin of the world has been a topic of fascination and speculation for thousands of years. Many cultures and religions have their own creation stories, each providing unique insights into the forces that brought the universe into being. 
 
 But regardless of the particular narrative, the underlying theme is the same: the world emerged from chaos and took form through a process of creation.
 
