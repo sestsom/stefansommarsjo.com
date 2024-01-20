@@ -18,10 +18,10 @@ draft = false
 +++
 {{< youtube hdYHcZWEhH8 >}}
 
-The origin of the world has been a topic of fascination and speculation for thousands of years. Many cultures and religions have their own creation stories, each providing unique insights into the forces that brought the universe into being. 
+The origin of the world has been a topic of fascination and speculation for thousands of years. Many cultures and religions have their own creation stories, each providing unique insights into the forces that brought the universe into being. <!--more-->
 
 But regardless of the particular narrative, the underlying theme is the same: the world emerged from chaos and took form through a process of creation.
-<!--more-->
+
 In **Greek mythology**, the world began with Chaos, a formless void that existed before anything else. From this void emerged Gaia, the personification of the earth, and Eros, the deity of love. 
 Together, they gave birth to the first generations of gods and titans, and thus the world was formed.
 
