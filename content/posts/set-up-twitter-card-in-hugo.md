@@ -19,11 +19,9 @@ series = ["Coding"]
 aliases = ["set-up-twitter-card-in-hugo"]
 draft = false
 +++
-Choose a Twitter Card type: Twitter offers several types of Cards, such as summary, summary_large_image, app, player, and more. You can choose the card type that suits your content the best. In this example, we will use the summary_large_image card, which allows for a large image and a title, description, and website URL.
+Choose a Twitter Card type: Twitter offers several types of Cards, such as summary, summary_large_image, app, player, and more. You can choose the card type that suits your content the best. In this example, we will use the summary_large_image card, which allows for a large image and a title, description, and website URL.<!--more-->
 
 Add meta tags to the site head: Open the head.html file in your Hugo theme, and add the following meta tags to the head section:
-<!--more-->
-
 
 ```html
 <meta name="twitter:card" content="summary_large_image">
@@ -32,7 +30,6 @@ Add meta tags to the site head: Open the head.html file in your Hugo theme, and 
 <meta name="twitter:image" content="{{ .Site.BaseURL }}{{ .Params.images }}">
 <meta name="twitter:site" content="{{ .Site.Params.twitter }}">
 ```
-
 These meta tags tell Twitter what type of Card you want to use, and what information to display. Note that we are using Hugo variables (such as .Title and .Description) to populate the content dynamically.
 
 Set up front matter for each post: In each post's front matter, you can add additional metadata for Twitter Cards. Here's an example:
