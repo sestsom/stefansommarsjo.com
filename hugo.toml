@@ -16,6 +16,13 @@ theme = 'PaperMod'
   favicon = "https://www.stefansommarsjo.com/favicon.ico"
 
 
+
+  [params.profileMode]
+  enabled = true
+  title = "Stefan Sommarsjö"
+  subtitle = "Breaking free from subscriptions"
+
+
 [[params.socialIcons]]
   name = "github"
   url = "https://github.com/sestsom"
