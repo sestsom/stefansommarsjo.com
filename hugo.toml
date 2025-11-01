@@ -14,7 +14,7 @@ theme = 'PaperMod'
   defaultTheme = "dark"
   assets.favicon = "https://www.stefansommarsjo.com/favicon.ico"
   favicon = "https://www.stefansommarsjo.com/favicon.ico"
-
+  ShowReadingTime = true
 
 
   [params.profileMode]
