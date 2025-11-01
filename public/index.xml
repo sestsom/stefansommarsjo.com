@@ -9,11 +9,13 @@
     <lastBuildDate>Sat, 01 Nov 2025 10:26:05 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My First Post</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
+      <title>Breaking Free: Why I&#39;m Ditching WordPress.com and the Subscription Trap</title>
+      <link>http://localhost:1313/posts/ditching-wordpress-and-subscriptions/</link>
       <pubDate>Sat, 01 Nov 2025 10:26:05 +0100</pubDate>
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
-      <description>&lt;p&gt;fdsfsdfsd&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/ditching-wordpress-and-subscriptions/</guid>
+      <description>&lt;h2 id=&#34;enough-is-enough&#34;&gt;Enough is Enough&lt;/h2&gt;
+&lt;p&gt;I&amp;rsquo;m tired of bleeding money every month. Adobe Creative Cloud. Netflix (and Disney+, and HBO Max&amp;hellip;). Skylum Luminar. WordPress.com. The list goes on. Death by a thousand subscriptions.&lt;/p&gt;
+&lt;p&gt;What started as a convenient $10/month here and $15/month there has snowballed into hundreds of dollars vanishing from my account every month. For what? Software I don&amp;rsquo;t fully own. Services I barely use. The constant nagging feeling that I&amp;rsquo;m being nickel-and-dimed into oblivion.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
