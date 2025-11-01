@@ -53,4 +53,4 @@ I'm trading convenience for freedom. And honestly? It feels pretty good.
 
 ---
 
-*This is the first post on my new Hugo blog. No subscriptions. No platforms. Just me, my content, and a simple static site. Here to take back control.*
+> *This is the first post on my new Hugo blog. No subscriptions. No platforms. Just me, my content, and a simple static site. Here to take back control.*
