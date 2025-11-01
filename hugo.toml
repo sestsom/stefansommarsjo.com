@@ -15,7 +15,7 @@ theme = 'PaperMod'
   favicon = "https://www.stefansommarsjo.com/favicon.ico"
 
 [params.author]
-name = "Stefan Sommarsjö"
+name = 'Stefan Sommarsjö'
 
 [params.social]
 github = "sestsom"
