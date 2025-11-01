@@ -15,7 +15,8 @@ theme = 'PaperMod'
   favicon = "https://www.stefansommarsjo.com/favicon.ico"
 
 
-[params.social]
-github = "sestsom"
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/sestsom"
 
 
