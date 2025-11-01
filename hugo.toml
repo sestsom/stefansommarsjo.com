@@ -3,6 +3,7 @@ languageCode = 'en-us'
 title = 'Stefan Sommarsjö'
 theme = 'PaperMod'
 [params]
+  ShowHome = true
   env = 'production'
   subtitle = "Creating Stuff..."
   description = 'Creating Stuff...'
