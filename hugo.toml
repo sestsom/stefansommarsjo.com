@@ -7,3 +7,4 @@ theme = 'PaperMod'
 
 
   dateFormat = "January 2, 2006"
+  ShowShareButtons = true
