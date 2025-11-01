@@ -2,18 +2,28 @@
     /*font-weight: 800 !important;*/
     letter-spacing: -1px !Important;
     word-spacing: -1px !important;
+    hyphens: auto;
+    -webkit-hyphens: auto;
 }
 post-content {
     letter-spacing: -1px !important;
     word-spacing: -1px !important;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 .post-title {
     /*font-weight: 800 !important;*/
     letter-spacing: -1px !important;
     word-spacing: -1px !important;
+    hyphens: auto;
+    -webkit-hyphens: auto;
 }
 .entry-header {
     /*font-weight: 700 !important;*/
     letter-spacing: -1px !important;
     word-spacing: -1px !important;
+    hyphens: auto;
+    -webkit-hyphens: auto;
 }
