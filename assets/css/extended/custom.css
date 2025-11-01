@@ -33,3 +33,112 @@ post-content {
     hyphens: auto !important;
     -webkit-hyphens: auto !important;
 }
+
+/* Mobile Responsive Improvements */
+
+/* Better font sizing on mobile */
+@media screen and (max-width: 768px) {
+
+    /* Adjust base font size */
+    body {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    /* Make post titles more readable */
+    .post-title {
+        font-size: 1.5rem !important;
+        line-height: 1.3;
+        word-wrap: break-word;
+        hyphens: auto;
+        -webkit-hyphens: auto;
+    }
+
+    /* Reduce padding on mobile */
+    .main {
+        padding: 10px 15px;
+    }
+
+    /* Better spacing for posts */
+    .post-content {
+        font-size: 1rem;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+    }
+
+    /* Make images responsive */
+    .post-content img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Better spacing for headers in posts */
+    .post-content h2 {
+        font-size: 1.4rem;
+        margin-top: 1.5rem;
+    }
+
+    .post-content h3 {
+        font-size: 1.2rem;
+    }
+
+    /* Improve list spacing */
+    .post-content ul,
+    .post-content ol {
+        padding-left: 1.5rem;
+    }
+
+    .post-content li {
+        margin-bottom: 0.5rem;
+    }
+
+    /* Better code block handling */
+    .post-content pre {
+        overflow-x: auto;
+        font-size: 0.85rem;
+    }
+
+    /* Navigation improvements */
+    .nav {
+        padding: 10px 15px;
+    }
+
+    /* Social icons sizing */
+    .social-icons a {
+        font-size: 1.2rem;
+    }
+
+    /* Better button spacing */
+    .buttons {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+}
+
+/* Extra small devices (iPhone SE, etc) */
+@media screen and (max-width: 375px) {
+    .post-title {
+        font-size: 1.3rem !important;
+    }
+
+    .main {
+        padding: 8px 12px;
+    }
+}
+
+/* General improvements for all screen sizes */
+.post-content {
+    hyphens: auto;
+    -webkit-hyphens: auto;
+}
+
+/* Prevent horizontal scroll on long URLs or code */
+.post-content a {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.post-content pre code {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
