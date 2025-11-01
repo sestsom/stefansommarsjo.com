@@ -11,3 +11,7 @@ theme = 'PaperMod'
   ShowShareButtons = true
   assets.favicon = 'https://www.stefansommarsjo.com/favicon.ico'
   favicon = 'https://www.stefansommarsjo.com/favicon.ico'
+
+  [assets]
+  assets.favicon = 'https://www.stefansommarsjo.com/favicon.ico'
+  favicon = 'https://www.stefansommarsjo.com/favicon.ico'
