@@ -10,4 +10,4 @@ theme = 'PaperMod'
   dateFormat = "January 2, 2006"
   ShowShareButtons = true
   assets.favicon = 'favicon.ico'
-  favicon = 'favicon.ico'
+  favicon = 'https://stefansommarsjo.com/favicon.ico'
