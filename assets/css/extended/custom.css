@@ -5,6 +5,7 @@
 }
 post-content {
     letter-spacing: -1px !important;
+    word-spacing: -1px !important;
 }
 .post-title {
     font-weight: 800 !important;
