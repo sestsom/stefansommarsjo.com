@@ -14,7 +14,10 @@ theme = 'PaperMod'
   assets.favicon = "https://www.stefansommarsjo.com/favicon.ico"
   favicon = "https://www.stefansommarsjo.com/favicon.ico"
 
-  [assets]
-  assets.favicon = "https://www.stefansommarsjo.com/favicon.ico"
-  favicon = "https://www.stefansommarsjo.com/favicon.ico"
+[params.author]
+name = "Stefan Sommarsjö"
+
+[params.social]
+github = "sestsom"
+
 
