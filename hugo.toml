@@ -3,8 +3,9 @@ languageCode = 'en-us'
 title = 'Stefan Sommarsjö'
 theme = 'PaperMod'
 [params]
+  env = 'production'
   subtitle = "Creating Stuff..."
-
-
+  description = "Creating Stuff..."
+  keywords = ["sommarsjö", "sommarsjo", "creating", "ludvika"]
   dateFormat = "January 2, 2006"
   ShowShareButtons = true
