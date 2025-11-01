@@ -27,3 +27,9 @@ post-content {
     hyphens: auto;
     -webkit-hyphens: auto;
 }
+.post-entry {
+    letter-spacing: -1px !important;
+    word-spacing: -1px !important;
+    hyphens: auto !important;
+    -webkit-hyphens: auto !important;
+}
