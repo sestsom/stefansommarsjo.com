@@ -9,6 +9,7 @@ theme = 'PaperMod'
   keywords = ["sommarsjö", "sommarsjo", "creating", "ludvika"]
   dateFormat = "January 2, 2006"
   ShowShareButtons = true
+  ShowPostNavLinks = true
   assets.favicon = "https://www.stefansommarsjo.com/favicon.ico"
   favicon = "https://www.stefansommarsjo.com/favicon.ico"
 
