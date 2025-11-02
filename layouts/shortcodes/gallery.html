@@ -1,0 +1,12 @@
+{{/* Masonry Gallery Shortcode - Automatically finds images with "gallery" in filename */}}
+<div class="masonry-gallery">
+  {{- range (.Page.Resources.ByType "image") -}}
+    {{- if in .Name "gallery" -}}
+      <div class="masonry-item">
+        <a href="{{ .RelPermalink }}" class="glightbox" data-gallery="gallery1">
+          <img src="{{ .RelPermalink }}" alt="{{ .Title }}" loading="lazy" />
+        </a>
+      </div>
+    {{- end -}}
+  {{- end -}}
+</div>

@@ -1,0 +1,19 @@
+<!-- GLightbox CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox@3.2.0/dist/css/glightbox.min.css">
+
+<!-- GLightbox JS -->
+<script src="https://cdn.jsdelivr.net/npm/glightbox@3.2.0/dist/js/glightbox.min.js"></script>
+
+<!-- Initialize Lightbox -->
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    if (typeof GLightbox !== 'undefined') {
+      const lightbox = GLightbox({
+        selector: '.glightbox',
+        touchNavigation: true,
+        loop: true,
+        autoplayVideos: true
+      });
+    }
+  });
+</script>
