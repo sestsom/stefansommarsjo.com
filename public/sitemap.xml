@@ -2,45 +2,45 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/tags/greece/</loc>
+    <loc>https://www.stefansommarsjo.com/tags/greece/</loc>
     <lastmod>2025-11-02T10:26:05+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://www.stefansommarsjo.com/posts/</loc>
     <lastmod>2025-11-02T10:26:05+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/prasonisiou/</loc>
+    <loc>https://www.stefansommarsjo.com/tags/prasonisiou/</loc>
     <lastmod>2025-11-02T10:26:05+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/rhodes/</loc>
+    <loc>https://www.stefansommarsjo.com/tags/rhodes/</loc>
     <lastmod>2025-11-02T10:26:05+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://www.stefansommarsjo.com/</loc>
     <lastmod>2025-11-02T10:26:05+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://www.stefansommarsjo.com/tags/</loc>
     <lastmod>2025-11-02T10:26:05+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/travel/</loc>
+    <loc>https://www.stefansommarsjo.com/tags/travel/</loc>
     <lastmod>2025-11-02T10:26:05+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/prasonisiou/</loc>
+    <loc>https://www.stefansommarsjo.com/posts/prasonisiou/</loc>
     <lastmod>2025-11-02T10:26:05+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/ditching-wordpress-and-subscriptions/</loc>
+    <loc>https://www.stefansommarsjo.com/posts/ditching-wordpress-and-subscriptions/</loc>
     <lastmod>2025-11-01T10:26:05+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/hugo/</loc>
+    <loc>https://www.stefansommarsjo.com/tags/hugo/</loc>
     <lastmod>2025-11-01T10:26:05+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/minimalism/</loc>
+    <loc>https://www.stefansommarsjo.com/tags/minimalism/</loc>
     <lastmod>2025-11-01T10:26:05+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/self-hosting/</loc>
+    <loc>https://www.stefansommarsjo.com/tags/self-hosting/</loc>
     <lastmod>2025-11-01T10:26:05+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/subscriptions/</loc>
+    <loc>https://www.stefansommarsjo.com/tags/subscriptions/</loc>
     <lastmod>2025-11-01T10:26:05+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://www.stefansommarsjo.com/categories/</loc>
   </url>
 </urlset>
