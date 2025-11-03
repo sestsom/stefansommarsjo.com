@@ -79,16 +79,21 @@ input:focus-visible {
 .post-entry {
     border-radius: var(--border-radius);
     transition: var(--transition-smooth);
-    border: 1px solid rgba(0, 0, 0, 0.05);
+    border: none;
+    background: transparent;
 }
 
 .post-entry:hover {
     transform: translateY(-2px);
-    box-shadow: var(--shadow-medium);
+}
+
+.post-entry:hover .entry-header {
+    color: var(--accent-color);
 }
 
 [data-theme="dark"] .post-entry {
-    border-color: rgba(255, 255, 255, 0.1);
+    background: transparent;
+    border: none;
 }
 
 /* ===== BETTER POST CONTENT ===== */
@@ -598,3 +603,42 @@ html {
     box-shadow: 0 4px 6px -1px rgba(255, 255, 255, 0.1);
 }
 
+/* ===== FIX POST ALIGNMENT & CLICKABLE AREA ===== */
+
+/* Remove the large clickable overlay */
+.first-entry .entry-link::before,
+.first-entry .entry-link::after,
+.post-entry .entry-link::before,
+.post-entry .entry-link::after {
+    content: none !important;
+}
+
+/* Fix alignment */
+.post-entry,
+.first-entry {
+    padding: 0 !important;
+    margin-bottom: 2rem;
+}
+
+/* Remove extra height from first entry */
+.first-entry {
+    min-height: auto !important;
+    height: auto !important;
+}
+
+.first-entry .entry-header,
+.first-entry .entry-content,
+.first-entry .entry-footer,
+.post-entry .entry-header,
+.post-entry .entry-content,
+.post-entry .entry-footer {
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/* Make the link only wrap actual content */
+.first-entry > a.entry-link {
+    display: inline-block !important;
+    width: 100%;
+}
