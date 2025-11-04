@@ -100,7 +100,7 @@ input:focus-visible {
 [data-theme="dark"] .post-entry .entry-content,
 [data-theme="dark"] .post-entry-content,
 [data-theme="dark"] .entry-summary {
-    color: #d1d5db !important;
+    color: #e5e7eb !important;
 }
 
 /* Also lighten the date */
