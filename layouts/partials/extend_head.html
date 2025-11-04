@@ -1,9 +1,21 @@
+<!-- Enhanced Twitter/X Cards & Open Graph (Text-Only) -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@yourusername"> <!-- Change to your handle -->
+<meta name="twitter:creator" content="@yourusername">
+{{ with .Title }}<meta name="twitter:title" content="{{ . }}">{{ end }}
+{{ with .Description }}<meta name="twitter:description" content="{{ . }}">{{ end }}
+
+<!-- Open Graph -->
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="{{ .Site.Title }}">
+{{ with .Title }}<meta property="og:title" content="{{ . }}">{{ end }}
+{{ with .Description }}<meta property="og:description" content="{{ . }}">{{ end }}
+<meta property="og:url" content="{{ .Permalink }}">
+
 <!-- GLightbox CSS -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox@3.2.0/dist/css/glightbox.min.css">
-
 <!-- GLightbox JS -->
 <script src="https://cdn.jsdelivr.net/npm/glightbox@3.2.0/dist/js/glightbox.min.js"></script>
-
 <!-- Initialize Lightbox -->
 <script>
   document.addEventListener('DOMContentLoaded', function() {
