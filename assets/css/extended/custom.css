@@ -99,14 +99,22 @@ input:focus-visible {
 /* ===== LIGHTEN POST SUMMARIES IN DARK MODE ===== */
 [data-theme="dark"] .post-entry .entry-content,
 [data-theme="dark"] .post-entry-content,
-[data-theme="dark"] .entry-summary
+[data-theme="dark"] .entry-summary,
 [data-theme="dark"] .post-entry p {
+    color: #e5e7eb !important;
+}
+
+/* FIRST ENTRY (top post) - same lighter color */
+[data-theme="dark"] .first-entry .entry-content,
+[data-theme="dark"] .first-entry .entry-summary,
+[data-theme="dark"] .first-entry p {
     color: #e5e7eb !important;
 }
 
 /* Also lighten the date */
 [data-theme="dark"] .post-meta,
-[data-theme="dark"] .post-entry .post-meta {
+[data-theme="dark"] .post-entry .post-meta,
+[data-theme="dark"] .first-entry .post-meta {
     color: #9ca3af !important;
 }
 
