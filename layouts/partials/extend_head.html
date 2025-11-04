@@ -1,9 +1,18 @@
-<!-- Enhanced Twitter/X Cards & Open Graph (Text-Only) -->
-<meta name="twitter:card" content="summary">
-<meta name="twitter:site" content="@yourusername"> <!-- Change to your handle -->
-<meta name="twitter:creator" content="@yourusername">
+<!-- Enhanced Twitter/X Cards & Open Graph -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@stefansommarsjo">
+<meta name="twitter:creator" content="@stefansommarsjo">
 {{ with .Title }}<meta name="twitter:title" content="{{ . }}">{{ end }}
 {{ with .Description }}<meta name="twitter:description" content="{{ . }}">{{ end }}
+
+<!-- Use cover if exists, otherwise use default site image -->
+{{ if .Params.cover.image }}
+  <meta name="twitter:image" content="{{ .Params.cover.image | absURL }}">
+  <meta property="og:image" content="{{ .Params.cover.image | absURL }}">
+{{ else }}
+  <meta name="twitter:image" content="{{ .Site.BaseURL }}og-image.jpg">
+  <meta property="og:image" content="{{ .Site.BaseURL }}og-image.jpg">
+{{ end }}
 
 <!-- Open Graph -->
 <meta property="og:type" content="article">
