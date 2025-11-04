@@ -586,17 +586,28 @@ html {
 /* Responsive - Mobile */
 @media screen and (max-width: 640px) {
     .masonry-gallery {
-        column-count: 2 !important; /* Changed from 1 to 2 */
-        column-gap: 0.5rem !important; /* Changed from 0 to 0.5rem */
+        column-count: 2 !important;
+        column-gap: 0.5rem !important;
+        /* Fix iOS alignment issue */
+        display: block !important;
+        align-items: flex-start !important;
     }
 
     .masonry-item {
         margin-bottom: 0.5rem;
-        border-radius: 6px; /* Changed from 4px to 6px */
+        border-radius: 6px;
+        /* Ensure items start at the same position */
+        margin-top: 0 !important;
+    }
+
+    .masonry-item:first-child {
+        margin-top: 0 !important;
     }
 
     .masonry-item img {
-        border-radius: 6px; /* Changed from 4px to 6px */
+        border-radius: 6px;
+        display: block;
+        vertical-align: top; /* Prevent alignment issues */
     }
 }
 
