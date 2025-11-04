@@ -99,7 +99,8 @@ input:focus-visible {
 /* ===== LIGHTEN POST SUMMARIES IN DARK MODE ===== */
 [data-theme="dark"] .post-entry .entry-content,
 [data-theme="dark"] .post-entry-content,
-[data-theme="dark"] .entry-summary {
+[data-theme="dark"] .entry-summary
+[data-theme="dark"] .post-entry p {
     color: #e5e7eb !important;
 }
 
