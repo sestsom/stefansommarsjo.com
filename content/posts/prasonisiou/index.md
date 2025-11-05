@@ -1,7 +1,7 @@
 +++
 date = '2025-11-02T10:26:05+01:00'
 draft = false
-title = "Untouched Slice of Greek Island Magic - Paralia Prasonisiou"
+title = "Untouched Slice of Greek Island Magic: Paralia Prasonisiou"
 description = "On our trip to Rhodes in May 2025 we went to Paralia Prasonisiou..."
 tags = ["rhodes", "greece", "travel", "prasonisiou"]
 +++
