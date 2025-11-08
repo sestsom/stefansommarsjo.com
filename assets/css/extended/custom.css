@@ -600,6 +600,7 @@ html {
         gap: 0.5rem !important;
         column-count: unset !important;
         margin: 2rem 0 !important;
+        column-count: 3 important;
     }
 
     .masonry-item {
