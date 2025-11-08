@@ -605,12 +605,12 @@ html {
 
     .masonry-item {
         margin-bottom: 0 !important;
-        border-radius: 6px;
+        border-radius: 8px;
         break-inside: unset !important;
     }
 
     .masonry-item img {
-        border-radius: 6px;
+        border-radius: 8px;
         width: 100%;
         height: auto;
         display: block;
