@@ -14,8 +14,6 @@ We began our day at 9:00 AM CEST, enjoying a hearty breakfast at the Princess An
 We headed northeast, passing landmarks like Paralia Glistra and Katafigio Agrias Zois (a wildlife refuge). The road hugged the coast, offering glimpses of the Aegean’s deep blue and passing through areas like Lardos Beach and Plakia Beach. The landscape shifted from Kiotari’s resort-lined shores to rugged hills dotted with olive groves, building up our excitement.
 We arrived in Lindos by 11:00 and parked the car near Lindos Beach. Cars aren’t allowed in the village to preserve its pedestrian charm. We laced up our walking shoes and stepped into Lindos’ whitewashed wonderland.
 
- ![Map](/lindosmap1.jpg)
-
 ## Exploring Lindos’ Beaches: Coastal Bliss
 
 Our plan was to soak in Lindos’ coastal beauty, starting with its beaches. We first walked to Lindos Beach and Pallas Beach. The golden-sand beaches were lively with families and couples, its clear waters shimmering under the May sun (around 27°C, typical for this time of year). We walked along the shore, the sand warm under our feet’s, collecting small pebbles and admiring the village’s white houses climbing the hillside. Tamarisk trees offered shade, and we paused to drink some water watching people splashing in the shallows.
