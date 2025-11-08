@@ -587,7 +587,7 @@ html {
 /* Responsive - Tablets */
 @media screen and (max-width: 1024px) {
     .masonry-gallery {
-        column-count: 2;
+        column-count: 3;
         column-gap: 0.625rem;
     }
 }
