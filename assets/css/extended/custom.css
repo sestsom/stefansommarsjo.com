@@ -615,6 +615,12 @@ html {
         display: block;
     }
 }
+/* Remove any pseudo-elements that might cause lines */
+.masonry-item a::before,
+.masonry-item a::after {
+    content: none !important;
+    display: none !important;
+}
 
 /* Dark mode adjustments */
 [data-theme="dark"] .masonry-item:hover {
