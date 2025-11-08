@@ -587,7 +587,7 @@ html {
 /* Responsive - Tablets */
 @media screen and (max-width: 1024px) {
     .masonry-gallery {
-        column-count: 3;
+        column-count: 3 !important;
         column-gap: 0.625rem;
     }
 }
@@ -605,12 +605,12 @@ html {
 
     .masonry-item {
         margin-bottom: 0 !important;
-        border-radius: 8px;
+        border-radius: 8px !important;
         break-inside: unset !important;
     }
 
     .masonry-item img {
-        border-radius: 8px;
+        border-radius: 8px !important;
         width: 100%;
         height: auto;
         display: block;
