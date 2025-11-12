@@ -39,13 +39,14 @@ The most interesting challenge was dealing with some quirky behavior where Elect
 
 The solution involved some CSS injection and JavaScript DOM manipulation to clean up the interface:
 
-`// Hide duplicate elements that only appear in Electron
+```
+// Hide duplicate elements that only appear in Electron
 this.mainWindow.webContents.on('dom-ready', () => {
   this.mainWindow.webContents.insertCSS(`
     .sidebar-header { display: none !important; }
   `);
 });
-`
+```
 It's a bit hacky, but it works perfectly and gives me the clean interface I wanted.
 
 ## Why Share This?
