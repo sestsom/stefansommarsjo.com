@@ -6,8 +6,15 @@
     <description>Recent content on Stefan Sommarsjö</description>
     <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 10 Nov 2025 10:26:05 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 12 Nov 2025 10:26:05 +0100</lastBuildDate>
     <atom:link href="https://www.stefansommarsjo.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building a Desktop App for Proton Docs (Because I&#39;m Lazy)</title>
+      <link>https://www.stefansommarsjo.com/posts/electron-proton/</link>
+      <pubDate>Wed, 12 Nov 2025 10:26:05 +0100</pubDate>
+      <guid>https://www.stefansommarsjo.com/posts/electron-proton/</guid>
+      <description>I spent time building a desktop wrapper for Proton Docs using Electron...</description>
+    </item>
     <item>
       <title>Smedjebacken Cruising: Where Chrome, Culture, and Community Collide</title>
       <link>https://www.stefansommarsjo.com/posts/smedjebacken-cruising/</link>
@@ -41,9 +48,7 @@
       <link>https://www.stefansommarsjo.com/posts/ditching-wordpress-and-subscriptions/</link>
       <pubDate>Sat, 01 Nov 2025 10:26:05 +0100</pubDate>
       <guid>https://www.stefansommarsjo.com/posts/ditching-wordpress-and-subscriptions/</guid>
-      <description>&lt;h2 id=&#34;enough-is-enough&#34;&gt;Enough is Enough&lt;/h2&gt;
-&lt;p&gt;I&amp;rsquo;m tired of bleeding money every month. Adobe Creative Cloud. Netflix (and Disney+, and HBO Max&amp;hellip;). Skylum Luminar. WordPress.com. The list goes on. Death by a thousand subscriptions.&lt;/p&gt;
-&lt;p&gt;What started as a convenient $10/month here and $15/month there has snowballed into hundreds of dollars vanishing from my account every month. For what? Software I don&amp;rsquo;t fully own. Services I barely use. The constant nagging feeling that I&amp;rsquo;m being nickel-and-dimed into oblivion.&lt;/p&gt;</description>
+      <description>I was paying for convenience I didn&amp;#39;t need, and sacrificing control in the process...</description>
     </item>
   </channel>
 </rss>

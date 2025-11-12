@@ -2,6 +2,7 @@
 date = '2025-11-01T10:26:05+01:00'
 draft = false
 title = "Breaking Free: Why I'm Ditching WordPress.com and the Subscription Trap"
+description ="I was paying for convenience I didn't need, and sacrificing control in the process..."
 tags = ["self-hosting", "hugo", "minimalism", "subscriptions"]
 +++
 ## Enough is Enough
