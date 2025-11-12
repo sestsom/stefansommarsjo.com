@@ -15,7 +15,7 @@ First world problems? Absolutely. But that's exactly the kind of problem that ma
 
 ## Enter: Proton Docs Desktop
 
-![Proton Docs Electron Wrapper](/electron-proton.jpg)
+![Proton Docs Electron Wrapper](/electron-proton.png)
 
 So I did what any reasonable developer would do, I spent time building a desktop wrapper for Proton Docs using Electron. The result is a simple, clean desktop app that gives me exactly what I wanted: Proton Docs in its own dedicated window.
 
