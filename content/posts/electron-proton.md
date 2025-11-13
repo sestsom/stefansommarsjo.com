@@ -3,6 +3,7 @@ date = '2025-11-12T10:26:05+01:00'
 draft = false
 title = "Building a Desktop App for Proton Docs (Because I'm Lazy)"
 description = "I spent time building a desktop wrapper for Proton Docs using Electron..."
+image = "/electron-proton.png"
 tags = ["proton", "electron", "developing", "github"]
 +++
 I'll be honest with you, I built this desktop app for Proton Docs a while ago purely out of laziness and personal convenience. Sometimes the simplest motivations lead to the most useful projects.
