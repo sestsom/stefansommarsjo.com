@@ -10,8 +10,8 @@
   <meta name="twitter:image" content="{{ .Params.cover.image | absURL }}">
   <meta property="og:image" content="{{ .Params.cover.image | absURL }}">
 {{ else }}
-  <meta name="twitter:image" content="{{ .Site.BaseURL }}/og-image.jpg">
-  <meta property="og:image" content="{{ .Site.BaseURL }}/og-image.jpg">
+  <meta name="twitter:image" content="{{ .Site.BaseURL }}og-image.jpg">
+  <meta property="og:image" content="{{ .Site.BaseURL }}og-image.jpg">
 {{ end }}
 
 <!-- Open Graph -->
