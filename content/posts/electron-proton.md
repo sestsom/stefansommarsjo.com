@@ -5,6 +5,9 @@ title = "Building a Desktop App for Proton Docs (Because I'm Lazy)"
 description = "I spent time building a desktop wrapper for Proton Docs using Electron..."
 image = "/electron-proton.png"
 tags = ["proton", "electron", "developing", "github"]
+[cover]
+image = "/electron-proton.png"  # or full path like "/images/cover.jpg"
+alt = "Image description"
 +++
 I'll be honest with you, I built this desktop app for Proton Docs a while ago purely out of laziness and personal convenience. Sometimes the simplest motivations lead to the most useful projects.
 
